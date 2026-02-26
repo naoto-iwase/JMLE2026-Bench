@@ -1,0 +1,3 @@
+# Dependencies for the Streamlit viewer (viewer.py), not for the benchmark itself.
+streamlit>=1.45
+pandas
