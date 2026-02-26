@@ -147,6 +147,31 @@ uv run benchmark.py --model openai/gpt-oss-120b \
   --image-mode blind --extra-body '{"reasoning_effort": "high"}'
 ```
 
+#### [Qwen3.5-27B](https://huggingface.co/Qwen/Qwen3.5-27B)
+
+Hardware: 4x A100 80GB (TP=4).
+
+```bash
+python -m sglang.launch_server \
+  --model-path Qwen/Qwen3.5-27B \
+  --port 8000 --tp-size 4 \
+  --mem-fraction-static 0.8 --context-length 262144 \
+  --reasoning-parser qwen3
+
+# think mode (default)
+uv run benchmark.py --model Qwen/Qwen3.5-27B \
+  --display-name "Qwen3.5-27B" \
+  --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
+  --image-mode vision
+
+# no-think mode
+uv run benchmark.py --model Qwen/Qwen3.5-27B \
+  --display-name "Qwen3.5-27B (no-think)" \
+  --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
+  --image-mode vision \
+  --extra-body '{"chat_template_kwargs": {"enable_thinking": false}, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5}'
+```
+
 #### [Qwen3.5-35B-A3B](https://huggingface.co/Qwen/Qwen3.5-35B-A3B)
 
 Hardware: 4x A100 80GB (TP=4).
@@ -173,27 +198,27 @@ uv run benchmark.py --model Qwen/Qwen3.5-35B-A3B \
   --extra-body '{"chat_template_kwargs": {"enable_thinking": false}, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5}'
 ```
 
-#### [Qwen3.5-27B](https://huggingface.co/Qwen/Qwen3.5-27B)
+#### [Qwen3.5-122B-A10B](https://huggingface.co/Qwen/Qwen3.5-122B-A10B)
 
 Hardware: 4x A100 80GB (TP=4).
 
 ```bash
 python -m sglang.launch_server \
-  --model-path Qwen/Qwen3.5-27B \
+  --model-path Qwen/Qwen3.5-122B-A10B \
   --port 8000 --tp-size 4 \
   --mem-fraction-static 0.8 --context-length 262144 \
   --reasoning-parser qwen3
 
 # think mode (default)
-uv run benchmark.py --model Qwen/Qwen3.5-27B \
-  --display-name "Qwen3.5-27B" \
-  --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
+uv run benchmark.py --model Qwen/Qwen3.5-122B-A10B \
+  --display-name "Qwen3.5-122B-A10B" \
+  --base-url http://localhost:8000/v1 --api-key dummy --parallel 32 \
   --image-mode vision
 
 # no-think mode
-uv run benchmark.py --model Qwen/Qwen3.5-27B \
-  --display-name "Qwen3.5-27B (no-think)" \
-  --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
+uv run benchmark.py --model Qwen/Qwen3.5-122B-A10B \
+  --display-name "Qwen3.5-122B-A10B (no-think)" \
+  --base-url http://localhost:8000/v1 --api-key dummy --parallel 32 \
   --image-mode vision \
   --extra-body '{"chat_template_kwargs": {"enable_thinking": false}, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5}'
 ```
@@ -207,10 +232,18 @@ vllm serve Qwen/Qwen3-32B --port 8000 \
   --tensor-parallel-size 4 --async-scheduling \
   --reasoning-parser qwen3
 
+# think mode (default)
 uv run benchmark.py --model Qwen/Qwen3-32B \
   --display-name "Qwen3-32B" \
   --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
   --image-mode blind
+
+# no-think mode
+uv run benchmark.py --model Qwen/Qwen3-32B \
+  --display-name "Qwen3-32B (no-think)" \
+  --base-url http://localhost:8000/v1 --api-key dummy --parallel 8 \
+  --image-mode blind \
+  --extra-body '{"chat_template_kwargs": {"enable_thinking": false}, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5}'
 ```
 
 #### [GPT-OSS-Swallow-120B-RL-v0.1](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-RL-v0.1)

@@ -1,0 +1,5364 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen3-32B",
+    "base_url": "http://localhost:8000/v1",
+    "timestamp": "20260226",
+    "image_mode": "blind",
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "presence_penalty": 1.5
+    },
+    "total_questions": 400,
+    "attempted": 400,
+    "skipped_image": 0,
+    "display_name": "Qwen3-32B (no-think)"
+  },
+  "summary": {
+    "accuracy": 0.815,
+    "correct": 326,
+    "incorrect": 74,
+    "score": 416,
+    "score_max": 500,
+    "score_pct": 0.832,
+    "text_only_score": 320,
+    "text_only_score_max": 382,
+    "text_only_score_pct": 0.8377,
+    "required_score": 176,
+    "required_score_max": 200,
+    "required_score_pct": 0.88,
+    "general_score": 240,
+    "general_score_max": 300,
+    "general_score_pct": 0.8,
+    "required_pass": true,
+    "general_pass": true,
+    "parse_failures": 0,
+    "errors": 0,
+    "by_block": {
+      "A": {
+        "correct": 59,
+        "total": 75,
+        "accuracy": 0.7867
+      },
+      "B": {
+        "correct": 43,
+        "total": 50,
+        "accuracy": 0.86
+      },
+      "C": {
+        "correct": 58,
+        "total": 75,
+        "accuracy": 0.7733
+      },
+      "D": {
+        "correct": 60,
+        "total": 75,
+        "accuracy": 0.8
+      },
+      "E": {
+        "correct": 43,
+        "total": 50,
+        "accuracy": 0.86
+      },
+      "F": {
+        "correct": 63,
+        "total": 75,
+        "accuracy": 0.84
+      }
+    },
+    "by_type": {
+      "multiple_choice": {
+        "correct": 326,
+        "total": 397,
+        "accuracy": 0.8212
+      },
+      "calculation": {
+        "correct": 0,
+        "total": 3,
+        "accuracy": 0.0
+      }
+    },
+    "by_image": {
+      "text_only": {
+        "correct": 250,
+        "total": 302,
+        "accuracy": 0.8278
+      },
+      "with_image": {
+        "correct": 76,
+        "total": 98,
+        "accuracy": 0.7755
+      }
+    }
+  },
+  "results": [
+    {
+      "question_id": "120A-1",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-10",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-11",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-12",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-13",
+      "predicted": [
+        "c",
+        "e"
+      ],
+      "gold": [
+        "c",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-14",
+      "predicted": [
+        "b",
+        "e"
+      ],
+      "gold": [
+        "b",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "Basedow病（グレーブス病）は自体免疫性甲状腺機能亢進症であり、典型的な症状には眼球突出（突眼）、びまん性甲状腺腫、手指振戦、脛骨前粘液水腫などが含まれます。\n\n一方、無痛性甲状腺炎は甲状腺の炎症による一過性の機能亢進を伴う疾患で、多くの場合、甲状腺の腫大や頸部リンパ節腫大が見られるものの、眼球突出や脛骨前粘液水腫など自体免疫性甲状腺疾患特有の外的眼徴はほとんどありません。\n\nしたがって、「無痛性甲状腺炎と Basedow 病の両方にみられる」のは：\n\n- b 手指振戦  \n  → 甲状腺機能亢進に伴う共通症状です。\n\n- e びまん性甲状腺腫  \n  → Basedow病では典型的ですが、無痛性甲状腺炎でも甲状腺全体の腫大が見られることがあります。\n\n【回答】b,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-15",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、**急性高血圧危象（hypertensive urgency/crisis）を合併した慢性腎不全の急性増悪**と考えられます。\n\n### 症例のポイント：\n- **40歳男性**\n- **10年前からACE阻害薬使用中だが不定期内服**\n- **頭痛・倦怠感が2週間前から出現し増悪**\n- **血圧 240/140 mmHg** → 高血圧危象\n- **尿蛋白3＋、潜血2＋** → 腎症候群的所見\n- **腎機能：クレアチニン 4.2 mg/dL（4週間前は1.5 mg/dL）** → 急性増悪\n- **両下腿浮腫**\n- **腎萎縮あり**\n\n---\n\n### 各選択肢の検討：\n\n#### a　経過観察  \n→ 血圧 240/140 mmHg は明確な高血圧危機であり、放置は脳出血や視神経乳頭浮腫などの重篤合併症につながる可能性があるため、**不適切**。\n\n#### b　緊急血液透析  \n→ BUN 60 mg/dL、Cr 4.2 mg/dL と腎機能は著しく低下している。しかし、症状としては頭痛や浮腫があり、**尿毒症的症状（意識障害、嘔吐など）はなく、また水腫が目立つことから容量過剰によるものもある**。ただ、**急性腎不全の重症度と血圧の急激上昇の両方を考慮すると、透析が必要かどうかは判断に難しい**。ただし、**現在の状態では緊急透析の指標には達していない**。\n\n#### c　グルココルチコイドの投与  \n→ 自律的高血圧性腎症や血管炎などの膠原病的疾患が疑われる場合に用いられることがあるが、**本症例にはそのような所見はない**（例えば尿沈渣に赤血球管型、免疫グロブリン陽性など）。**不適切**。\n\n#### d　カルシウム拮抗薬の持続静脈投与  \n→ **高血圧危機における第一選択薬の一つである**。特に、ACE阻害薬の使用歴があり、血圧が極めて高いため、**即時血圧降下が求められる**。**最も適切な対応**。\n\n#### e　アンジオテンシン受容体拮抗薬の投与  \n→ ACE阻害薬との併用は禁忌ではないが、**静脈投与でないため緊急時の血圧降下には不向き**。また、**腎機能低下のある患者には注意が必要**（特に単独使用では効果が限定的）。**不適切**。\n\n---\n\n### 結論：\n**高血圧危機に対して即座の血圧降下処置が必須であり、カルシウム拮抗薬の静脈内投与が最適な初回対応**です。\n\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-16",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-17",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-18",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-19",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-2",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-20",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "この患者は、幼少時に診断された**心房中隔欠損症（ASD）**の既往があり、現在では息切れや易疲労感などの症状が出現しています。心音所見からも典型的なASDの徴候である「II音の固定性分裂」と「胸骨左縁第2肋間の収縮期駆出性雑音」が確認されています。\n\nASDでは通常、**右心房と左心房の間で左→右シャント**が起こり、肺循環への血流が増加します。これが長期間続くと、右心室肥大や拡張を引き起こし、最終的には右心不全に至ることもあります。\n\n以下に選択肢を検討します：\n\n- **a　心電図でST上昇**  \n  → 急性心筋梗塞などでみられる所見であり、ASDには関係ありません。\n\n- **b　心電図で左室肥大**  \n  → ASDでは初期には左室肥大は見られません。むしろ右室肥大が特徴です。\n\n- **c　心エコー図で右→左シャント優位**  \n  → ASDでは通常**左→右シャント**が優勢ですが、まれに右→左シャントが生じる場合もあります（例：重度の肺高血圧）。しかし、「優位」という記述からは**逆シャント**を示唆している可能性があります。これは進行した病態を意味するため、長期未治療のASDでは考えられます。\n\n- **d　胸部エックス線写真で左第2弓の突出**  \n  → これは主に**動脈管開存症**に見られる特徴です。ASDではありません。\n\n- **e　胸部エックス線写真で肺血管陰影の減弱**  \n  → ASDでは肺血流量が増加するため、**肺血管陰影の増強**が見られるのが一般的です。減弱は肺血流量減少を示すため、ASDとは矛盾します。\n\n---\n\n最も合理的な選択肢は、**c**です。長期放置されたASDでは、右心系の負荷増加により肺高血圧が進行し、最終的に**右→左シャント優位**になることがあります。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-21",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-22",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-23",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "この症例は、4歳の女児に口唇や口腔内の色素斑があり、家族歴として母と母方の祖父に大腸ポリープがあるという情報から、**Peutz-Jeghers症候群**（ペッツ・ジェーガー症候群）を疑います。\n\n### Peutz-Jeghers症候群の特徴：\n- **口腔周囲や手指の色素斑**\n- **消化管に多発性のHamartomatousポリープ**（ハマルトーマ性）\n- 遺伝形式：常染色体優性\n- 消化管病変は主に**小腸**に多いが、大腸にも出現可能\n\n---\n\n### 各選択肢の検討：\n\n**a　腺腫である。**  \n✖️誤り。Peutz-Jeghers症候群のポリープは**ハマルトーマ**であり、腺腫ではない。\n\n**b　悪性化しない。**  \n✖️誤り。Peutz-Jeghers症候群では、**ポリープ自体の悪性化はまれ**だが、**他の臓器（大腸、卵巣、子宮など）の悪性疾患のリスクが上昇**する。\n\n**c　自然脱落する。**  \n✖️誤り。Peutz-Jeghersのポリープは自然に脱落することはない。\n\n**d　大腸に限局する。**  \n✖️誤り。ポリープは**小腸（特に空腸）に多く見られる**が、大腸にも現れる。したがって「限局」しているわけではない。\n\n**e　通過障害の原因となる。**  \n✅正しい。Peutz-Jeghers症候群のポリープは大きくなると、**腸閉塞などの通過障害を引き起こす可能性がある**。\n\n---\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-24",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-25",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-26",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-27",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、48歳の女性で副腎腫瘍が見つかり、高コルチゾール血症（コルチゾン過剰）を示しており、少量デキサメタゾン抑制試験も陽性です。また、満月様顔貌や水牛肩などのクッシング症候群の典型的な外貌所見があります。CTやシンチグラムから、単一の副腎腫瘍が疑われます。これらの所見は、**副腎腫瘍によるクッシング症候群**と考えられます。\n\n外科的に腫瘍を摘出する予定であり、術後の対応について問われています。\n\n---\n\n### 各選択肢の検討：\n\n- **a. 降圧薬の増量**  \n　→ 高血圧はクッシング症候群の症状として存在しますが、腫瘍除去によりコルチゾンが低下すれば、自然に改善することが期待されます。したがって、術後に即して降圧薬を増量する必要はありません。\n\n- **b. スタチンの投与**  \n　→ ライプid異常はクッシング症候群の合併症ですが、これもコルチゾンの抑制により改善が見込まれるため、術後すぐにスタチンを開始する理由はありません。\n\n- **c. SGLT2阻害薬の投与**  \n　→ 血糖値はわずかに上昇していますが、HbA1cは正常範囲内。SGLT2阻害薬は糖尿病治療に用いられますが、現時点では適応ありません。\n\n- **d. グルココルチコイドの投与**  \n　→ 副腎腫瘍を切除すると、反対側の副腎が機能低下している可能性があり、特に長期の高コルチゾン状態下では副腎皮質の萎縮が起こっている可能性があります。そのため、**術後の副腎不全予防のためにグルココルチコイド（例：ヒドロコルチゾン）の投与が必要**です。\n\n- **e. ACTH の投与**  \n　→ ACTHは通常、慢性副腎不全の維持療法には使用されず、グルココルチコイドで補充します。ACTH単独では十分なコルチゾン産生を誘導できないため、適切ではありません。\n\n---\n\n### 正解：\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-28",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-29",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "喉頭全摘術は、声帯を含む喉頭部全体を切除する手術です。この手術後には、以下の機能に影響が出ることが一般的です：\n\n- **声を出す（a）**：声帯が切除されるため、通常の発声はできなくなります。\n- **舌を出す（b）**：舌の動き自体は可能ですが、喉頭の構造が変化しているため、一部の患者では口蓋や舌の位置調整に影響が出る可能性があります。\n- **臭いをかぐ（c）**：嗅覚は鼻腔に関係し、喉頭とは直接関係がないため、**基本的には影響を受けません**。\n- **麺をすする（d）**：喉頭と咽頭の機能に影響があるため、嚥下や食事の取り扱いに支障が出ることがあります。\n- **息をこらえる（e）**：声帯による気道閉鎖機能が失われるため、息を強くこらえることが困難になります。\n\nしたがって、**手術によって影響を受けない**のは：\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-3",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-30",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-31",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-32",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、60歳男性で脾腫大を伴う白血球増多が主訴です。血液所見では、白血球数の増加（31,200/μL）に加えて、赤血球や血小板は正常域内であり、特に特徴的なのは好塩基球の割合が7％とやや高い点です。また、LD（乳酸脱水素酵素）値が上昇しており、これは細胞代謝の亢進を示唆しています。\n\n骨髄像（別冊No. 11）については明記されていませんが、このような臨床像は典型的に**慢性骨髄性白血病（CML）**や**骨髄異形成症候群（MDS）**、または**慢性リンパ性白血病（CLL）**などの可能性があります。しかし、好塩基球増加や脾腫大、そしてLD上昇などはCMLに比較的よくみられる特徴です。\n\nまた、CMLでは**BCR-ABL融合遺伝子**が原因となるため、チロシンキナーゼ阻害薬（TKI）が第一選択治療法となります。\n\n選択肢の検討：\n- **a 経過観察**：症状がないからといって、白血球増多の原因が不明である場合は経過観察も考えられますが、脾腫大やLD上昇がある場合、放置は適切ではありません。\n- **b 同種骨髄移植**：高齢者には不向きで、初期対策としては早い。\n- **c 殺細胞性抗癌薬投与**：急性白血病に対して用いられることが多いですが、この症例では急性の傾向は見られません。\n- **d チロシンキナーゼ阻害薬投与**：CMLの初期治療として最適な選択肢です。\n- **e 免疫チェックポイント阻害薬投与**：がん免疫療法で、一般的に白血病には使用されません。\n\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-33",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-34",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-35",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、口唇の肥厚、下顎の突出、舌の腫大、身長162cmで体重72kgという顕著な肥満傾向（BMI 27.3）を呈しています。また、症状が2年以上経過しており、靴のサイズや指輪のサイズの変化など、進行性の軟組織肥厚が見られます。\n\nこのような臨床像は**アクロメガリア**に典型的です。アクロメガリアは、成長ホルモン（GH）の過剰分泌によって引き起こされる疾患であり、その主な原因は**前頭葉の成長ホルモン産生腺腫**です。GHが過剰になると、**インスリン様成長因子-Ⅰ（IGF-I）**が増加し、これが皮膚や軟組織の肥厚、骨格の変形などを引き起こします。\n\n他の選択肢についても検討すると：\n\n- **a ACTH**：クッシング症候群に関連するが、本症例ではクッシング特有の所見（月面顔、ストレッチマークなど）はみられない。\n- **b FT₃**：甲状腺機能亢進症の指標だが、本症例には手の震えや頻脈などの特徴は不十分。\n- **d LH**：性腺機能と関係するが、本症例の特徴とは一致しない。\n- **e TSH**：同様に甲状腺機能評価だが、特徴的所見はない。\n\nしたがって、この患者の内分泌異常として最も可能性が高いのは**IGF-Iの上昇**です。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-36",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-37",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-38",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-39",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-4",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-40",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、悪寒・発熱、軟便、視力低下、右上腹部圧痛、肝腫大、白血球増多（特に桿状核好中球増加）、CRP 上昇などの所見を示しています。また、尿糖陽性と血糖値の上昇から糖尿病が背景にあるものの、HbA1c はやや高めですが急性期の血糖上昇と考えられます。\n\n血液検査では CRP の著明な上昇があり、炎症反応が強いことがわかります。肝臓関連の数値も注目すべき点が多く、ALP、γ-GT、LD が上昇しており、胆汁鬱滞を伴う肝炎または肝膿瘍などを疑います。腹部 CT も観察するべきです。\n\n【各選択肢の評価】\n\n- **a　眼底検査**：  \n　視力低下があるため、網膜に問題がないかを確認するために眼底検査を行うことは適切です。\n\n- **b　血液培養**：  \n　悪寒・発熱、白血球増多、感染徴候があるため、敗血症の可能性を排除するためには血液培養は適切です。\n\n- **c　便の直接鏡検**：  \n　軟便が続いているため、寄生虫や細菌性腸炎の有無を調べるために適切です。\n\n- **d　尿中レジオネラ抗原検査**：  \n　レジオネラ肺炎は典型的には高熱、頭痛、下痢などを呈しますが、本症例では肺の症状や胸部エックス線異常がなく、主訴は消化器系・眼科的症状であるため、優先度が低い検査です。したがって**適切でない**可能性が高いです。\n\n- **e　肝病変部の超音波ガイド下穿刺吸引検査**：  \n　肝腫大と局所的な圧痛、ALP 上昇などから肝膿瘍の可能性があり、穿刺検査は診断および治療のために適切です。\n\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-41",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-42",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-43",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-44",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "この患者は63歳の男性で、健診で心雑音が指摘され来院しました。自覚症状（息切れなど）はありません。身体所見では、心尖部にLevine 2/6の汎収縮期雑音が聴取されますが、他の異常は見られません。血液検査や胸部X線、心エコーでも特異な異常はなく、BNPも正常範囲内です。\n\n心エコーによる左室駆出率（LVEF）は68%と正常であり、左室拡大もありません。また、BNP値が低いことから心不全の可能性は低く、CRPも正常なので炎症反応もありません。\n\nこのような臨床像からは、僧帽弁逆流（特に僧帽弁閉鎖不全症）の可能性が高いですが、その程度が軽度（Levine 2/6）であり、症状もないため緊急性のある処置が必要とは限りません。\n\n選択肢を検討すると：\n\n- **a 僧帽弁置換術**：重度の逆流で症状がある場合に検討されるが、現状では不要。\n- **b β遮断薬内服**：僧帽瓣逆流の治療には一般的に使われない。\n- **c ワルファリン内服**：血栓予防が必要な場合は使用されるが、今の段階では不要。\n- **d 心臓カテーテル検査**：明確な適応がない。\n- **e 定期的な心エコー検査**：軽度の僧帽弁逆流があり、無症状であれば定期観察が最も適切。\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-45",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-46",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-47",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-48",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-49",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-5",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-50",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-51",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "この患者さんは以下の特徴を示しています：\n\n- **主訴**：易疲労感\n- **既往歴**：2か月前に感冒、その後に頻尿の出現\n- **身体所見**：意識は清明、体重48 kg（やせ型）\n- **尿検査**：尿糖3＋、ケトン体2＋\n- **血液検査**\n  - 血糖値が非常に高い（384 mg/dL）\n  - HbA1cも著しく高い（11.4%）\n  - CPR（Cペプチド）が基準値より低い（0.5 ng/mL）\n\n### 診断：\nこれらの所見から、**1型糖尿病**または**インスリン非依存性膵臓疾患による糖尿病**と考えられます。特に注目すべき点は：\n\n- **CPRが低下していること** → インスリン分泌能の低下を示唆\n- **やせ型で高血糖・尿糖・ケトーシス** → 1型糖尿病の典型的像\n\n### 治療選択肢の検討：\n- **a　インスリンの注射**  \n  → 高血糖と低CPRからインスリン分泌が不足している可能性が高いので、**即時治療として最も適切**。\n\n- **b　DPP-4阻害薬の内服**  \n  → インスリン分泌能が必要な薬剤であり、本症例では不適切。\n\n- **c　SGLT2阻害薬の内服**  \n  → 血糖降下作用はあるが、インスリン欠乏状態では十分な効果がない。\n\n- **d　塩酸メトホルミンの内服**  \n  → やせ型糖尿病（特に1型）には禁忌ではなくても、インスリン分泌がない場合の一次治療ではない。\n\n- **e　GLP-1受容体作動薬の注射**  \n  → インスリン分泌を促進するが、本症例ではインスリンが分泌されていないため効果が限定的。\n\n### 結論：\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-52",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-53",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-54",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "この症例は急性骨髄性白血病（AML）に合併したDIC（急性播種性血管内凝固）の可能性が高く、緊急対応が必要です。\n\n### 考察：\n- **主訴**：口腔粘膜出血と紫斑 → 出血傾向を示唆。\n- **血液所見**：\n  - 血小板減少（1.5万）\n  - PT-INR延長（3.0）\n  - APTT延長（41.6秒）\n  - フィブリノゲン低下（54 mg/dL）\n  - FDP上昇（144 μg/mL）\n  → **DICの診断基準を満たしています。**\n- **末梢血像**：\n  - 白血球数減少（1,600/μL）\n  - 芽球・前骨髄球増多（芽球23%、前骨髄球19%）\n  → **急性骨髄性白血病（AML）の可能性が高まります。**\n\n### 各選択肢の検討：\n- **a　血漿交換の実施**  \n  → DICに対して有効な治療ではありません。本症例では不適切。\n\n- **b　自宅安静を指示**  \n  → 重度の出血傾向とAMLが疑われる症例で自宅安静は危険です。不適切。\n\n- **c　抗ウイルス薬の投与**  \n  → 病原体によるDICの原因が明確でないため、適応外です。不適切。\n\n- **d　分化誘導療法の実施**  \n  → AMLの治療には分化誘導療法は用いられません。これは主に慢性骨髄性白血病（CML）やAPL（急性前骨髄球性白血病）での治療法です。不適切。\n\n- **e　顆粒球コロニー刺激因子〈G-CSF〉の投与**  \n  → AML患者においては通常、G-CSFは発血再建の目的で化学療法後に使用されます。初期段階での単独使用は一般的ではありませんが、ここでは他の選択肢より最も近いものとして考えられます。ただし、最優先は化学療法（抗がん剤）ですが、それが選択肢にない場合、**G-CSFも一時的に考慮されることがあります**。\n\nしかし、最も**緊急性が高いのはAMLそのものの治療**であり、G-CSFは発血促進のために使われますが、初期治療としては**抗がん剤によるインダクション療法**が適切です。ただし、選択肢の中では**e**が最も妥当な対応となります。\n\n---\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-55",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-56",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-57",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-58",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "伝染性紅斑（第五病）は、パラボカシッルウイルスによって引き起こされるウイルス感染症です。通常は軽症で、子どもに多く見られます。\n\n妊娠初期の妊婦が伝染性紅斑に感染すると、胎児に影響を及ぼす可能性があります。特に妊娠 10〜20 週頃に感染した場合、**関節炎**や**水頭症**、**小脳形成不全**などのリスクが指摘されています。これは「先天性赤信号症候群」とも呼ばれます。\n\nしかし、母親が無症状の場合（潜伏感染または既往歴がある場合など）、あるいは感染が確認されていない場合は、胎児への影響が極めて低いとされます。\n\n問題文では、「母親は無症状だが、胎児への影響について質問された。母親には伝染性紅斑の既往はない」と記載されています。つまり、現在感染している可能性はあるものの、明確な感染証拠がないため、確定的なリスクは示せません。\n\nこの情報から最も適切な説明は：\n\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-59",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-6",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-60",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-61",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-62",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-63",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-64",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-65",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-66",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-67",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-68",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-69",
+      "predicted": [
+        "a",
+        "b"
+      ],
+      "gold": [
+        "a",
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-7",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-70",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-71",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-72",
+      "predicted": [
+        "a",
+        "e"
+      ],
+      "gold": [
+        "a",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-73",
+      "predicted": [
+        "c",
+        "d"
+      ],
+      "gold": [
+        "c",
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-74",
+      "predicted": [
+        "0.48"
+      ],
+      "gold": [
+        "0.40"
+      ],
+      "correct": false,
+      "raw_response": "尿蛋白量を推定するには、以下の式を使用します：\n\n$$\n\\text{1日尿蛋白量（g）} = \\frac{\\text{随時尿の尿蛋白濃度（mg/dL）} \\times \\text{1日の尿量（mL/日）}}{1000}\n$$\n\n### 与えられた値：\n- 尿蛋白濃度：100 mg/dL  \n- 尿量：1,200 mL/日  \n\nこれを公式に代入すると：\n\n$$\n\\text{1日尿蛋白量} = \\frac{100 \\times 1200}{1000} = 120 \\, \\text{mg} = 0.120 \\, \\text{g}\n$$\n\n---\n\n次に、尿中クレアチニン濃度から **尿蛋白/Cr比** を求めます。\n\n$$\n\\text{尿蛋白/Cr比（g/gCr）} = \\frac{\\text{尿蛋白量（g）}}{\\text{尿中クレアチニン濃度（g/dL）}}\n$$\n\nただし、クレアチニン濃度は mg/dL なので g/dL に変換します：\n\n$$\n250 \\, \\text{mg/dL} = 0.25 \\, \\text{g/dL}\n$$\n\nよって、\n\n$$\n\\text{尿蛋白/Cr比} = \\frac{0.120}{0.25} = 0.480\n$$\n\n小数第3位を四捨五入すると：\n\n$$\n0.48\n$$\n\n---\n\n### 最終回答：\n【回答】0.48",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-75",
+      "predicted": [
+        "3.14"
+      ],
+      "gold": [
+        "315"
+      ],
+      "correct": false,
+      "raw_response": "【回答】3.14",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-8",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120A-9",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-1",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-10",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-11",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-12",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-13",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-14",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-15",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-16",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-17",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-18",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-19",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-2",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-20",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-21",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-22",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-23",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-24",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-25",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-26",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-27",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-28",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-29",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-3",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-30",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-31",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-32",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-33",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-34",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-35",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-36",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-37",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-38",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-39",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-4",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-40",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-41",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-42",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-43",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-44",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-45",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-46",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-47",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-48",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "この患者は64歳の男性で、腹部膨満が主訴です。病歴から1か月前から症状が始まり、徐々に悪化しています。検査所見では腹部膨隆、shifting dullness陽性（腹水の存在を示唆）があり、血液検査ではAST、ALT、LD、ALP、γ-GTなどの肝臓関連数値が上昇しています。また、尿素窒素もやや高い値となっています。\n\nこのような臨床像では、**門脈圧亢進による腹水**（例：肝硬変など）を疑うべきであり、特に肝硬変が原因であれば、脾腫大や門脈拡張などがCTまたは超音波で確認できます。\n\n---\n\n**選択肢の検討：**\n\n- **a 腹部造影CT**  \n  → 腹水、肝臓状態、門脈系の評価に適しており、一次的な画像診断として有用です。肝硬変、腫瘍、膵疾患などを包括的に評価できます。\n\n- **b 腹部超音波検査**  \n  → 非侵襲的で腹水の有無や量、肝臓の状態、脾腫大などを確認できますが、詳細な評価には限界があります。\n\n- **c 上部消化管内視鏡検査**  \n  → 食道静脈瘤などの門脈圧亢進による合併症を評価するためには重要ですが、**現時点では腹水が確認されているので、まずはその原因を明確にする必要があります。**\n\n- **d 下部消化管内視鏡検査**  \n  → 大腸癌の家族歴があることから、可能性としてはあるものの、現在の主訴（腹水と腹膨満）からは少し遠いです。\n\n- **e MRCP**  \n  → 胆管・膵管の評価に特長的ですが、初期検査として優先度は低く、他の画像診断で異常が見つからない場合に検討します。\n\n---\n\nしたがって、**次に行う最も適切な検査は「腹部造影CT」**で、腹水の原因を含む全体像を評価することが望ましいです。\n\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-49",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-5",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-50",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-6",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-7",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-8",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120B-9",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-1",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-10",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-11",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-12",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-13",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-14",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-15",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-16",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-17",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-18",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-19",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-2",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-20",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-21",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-22",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-23",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-24",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-25",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-26",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-27",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-28",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-29",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-3",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "妊娠末期における生体の生理的変化を検討します。\n\n- **a PaCO₂（動脈血二酸化炭素分圧）**  \n  妊娠初期から徐々にPaCO₂は低下します。これは妊娠によるプロゲステロンの増加によって呼吸刺激が起こり、換気が亢進するためです。このため、妊娠末期には生理性の呼吸性アルカローシスが見られ、PaCO₂値は低下しています。\n\n- **b 心拍出量**  \n  妊娠末期には心拍出量は増加しています。妊娠による循環器系の適応として、心拍数と心室収縮力が増し、心拍出量はピークで約40〜50%増加します。\n\n- **c 腎血流量**  \n  妊娠中は腎血流量が増加します。特に妊娠中期から末期にかけて顕著で、腎小球フィルトレーションレート（GFR）も上昇します。\n\n- **d インスリン抵抗性**  \n  妊娠後期においてインスリン抵抗性が高まります。これは胎児への十分な栄養供給を確保するためのメカニズムの一環です。\n\n- **e 血漿フィブリノゲン**  \n  妊娠では凝固能が亢進し、フィブリノゲン濃度は増加します。これは妊娠期の高凝固状態に関与しています。\n\nしたがって、妊娠初期に比べて**低下している**のは：\n\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-30",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-31",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-32",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-33",
+      "predicted": [
+        "a",
+        "e"
+      ],
+      "gold": [
+        "a",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-34",
+      "predicted": [
+        "d",
+        "e"
+      ],
+      "gold": [
+        "d",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-35",
+      "predicted": [
+        "c",
+        "d"
+      ],
+      "gold": [
+        "b",
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-36",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "この問題では、小児の臨床症状と旅行歴に基づいて感染症の可能性を判断し、保健所への届出義務について答える必要があります。\n\n### 症状の要点：\n- 年齢：1歳\n- 主訴：発熱（3日前）、咳嗽、鼻汁、眼脂 → 本日から皮疹\n- 意識清明、体温39.9℃\n- 咽頭発赤、頬粘膜に白い斑点（ケルシュナー斑の可能性）\n- SpO₂ 92%（room airで軽度の酸素低下）\n- 東南アジアへの旅行歴（10日前出国、5日前帰国）\n\n### 考察：\n- **麻疹**の典型的な臨床像です。\n    - 発熱 + 咳 + 鼻汁 + 眼脂（Cough, Catarrah, Conjunctivitis の「三C」）\n    - ケルシュナー斑（頬粘膜の白い斑点）は麻疹の特徴的所見\n    - 数日後に広がる発疹\n    - また、麻疹の潜伏期間は通常7～14日であり、東南アジアでの感染も考えられる\n\n### 届け出義務：\n- **麻疹は「指定感染症」**に含まれており、医師は直ちに保健所へ届け出る義務があります（「伝染病法第2条」による）\n\n---\n\n【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-37",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-38",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-39",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-4",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-40",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-41",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-42",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-43",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-44",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-45",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-46",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-47",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-48",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-49",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、85歳の女性で、**傾眠状態**と**ADL低下**を主訴として来院しています。最近ではほとんど寝ており、食事と水分はかろうじて摂取可能。1か月で体重が2kg増加しており、これはむしろ**浮腫による体液保持**や**活動低下によるエネルギー消費減少**などに関連している可能性があります。\n\n### 既往歴・投薬歴\n- 高血圧症\n- 慢性腎臓病\n- 甲状腺機能低下症（レボチロキシン服用中）\n- 炭酸カルシウムの補充（骨粗鬆症予防）\n\n### 身体所見\n- 意識は清明\n- **頸部にびまん性の左右対称的な甲状腺腫**（触知可能だが結節なし）\n- 下肢に**非圧痕性浮腫**\n- 呼吸音や心音に異常なし\n\n### 血液検査所見\n- TSH：**24.4 μU/mL（↑）**\n- FT₄：**0.5 ng/dL（↓）**\n\n→ 明確な**原発性甲状腺機能低下症**の所見です。\n\n---\n\n### 解釈：\nTSHが著しく上昇し、FT₄が低下していることから、**甲状腺ホルモン不足**が明確です。これは、**レボチロキシン療法が不十分**であることを示唆しています。その結果として、**代謝低下**により**傾眠状態**や**浮腫**、**体重増加**などが生じています。\n\nまた、炭酸カルシウムの補充も関与している可能性があります。カルシウム剤は、**レボチロキシンの吸収を妨げる**ため、**薬物相互作用**によって効果が低下している可能性もあります（炭酸カルシウムは胃内でpHを上げるため、レボチロキシンの吸収が妨げられる）。\n\n---\n\n### 各選択肢の評価：\n\n- **a 感染症**  \n  → CRPが正常、意識障害以外に急性感染の徴候がないため、考えにくい。\n\n- **b 甲状腺癌**  \n  → 甲状腺結節がなく、症状も典型的ではありません。現時点では最有力ではない。\n\n- **c 薬物相互作用** ✅  \n  → **炭酸カルシウム**が**レボチロキシンの吸収を妨げる**ことが知られています。そのため、甲状腺ホルモンが不足し、傾眠などの症状を引き起こす可能性が高い。\n\n- **d 亜急性甲状腺炎**  \n  → 甲状腺の圧痛や発熱、甲状腺機能亢進期があるのが特徴ですが、ここでは甲状腺腫のみで、それらの徴候はない。\n\n- **e 免疫関連有害事象**  \n  → 特定の免疫チェックポイント阻害薬の使用歴がないため、無関係。\n\n---\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-5",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-50",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-51",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-52",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-53",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-54",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-55",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-56",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-57",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-58",
+      "predicted": [
+        "d",
+        "e"
+      ],
+      "gold": [
+        "d",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-59",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "d",
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-6",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-60",
+      "predicted": [
+        "a",
+        "d"
+      ],
+      "gold": [
+        "a",
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-61",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-62",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-63",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-64",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-65",
+      "predicted": [
+        "c",
+        "e"
+      ],
+      "gold": [
+        "c",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-66",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-67",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-68",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-69",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-7",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-70",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-71",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-72",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-73",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-74",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-75",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-8",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120C-9",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-1",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-10",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-11",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-12",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-13",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-14",
+      "predicted": [
+        "d",
+        "e"
+      ],
+      "gold": [
+        "d",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-15",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-16",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-17",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-18",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-19",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-2",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-20",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-21",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-22",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-23",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-24",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-25",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-26",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-27",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-28",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-29",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-3",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-30",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-31",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-32",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-33",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-34",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-35",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、35歳の女性でSLEを発症し、ループス腎炎によりグルココルチコイド治療を開始した後に認知機能低下（日付や病室の混乱）と不安によるナースコール増加が生じています。また、脳波には全般性徐波が認められ、頭部MRIや脳脊髄液検査に異常は見られません。\n\n### 考察：\n- **リスペリドン服用歴**：統合失調症の既往があり、10年間リスペリドンを服用しているため、長期投与による副作用（例：遅発性ジスキネジア）も考慮されるが、現在の症状は認知・意識障害に近い。\n- **グルココルチコイド使用後の精神症状**：ステロイド誘発性精神病は典型的な「症状性精神障害」であり、特に高用量や急激な投与開始時に起こりやすい。\n- **脳波所見**：全般性徐波は、薬物や全身疾患による中毒性脳症を示唆する可能性がある。\n- **頭部画像の陰性**：器質的な脳病変が否定され、薬物や全身疾患による中毒性脳症がより有力。\n\n### 各選択肢の検討：\n- **a　うつ病**：気分の落ち込みはあるが、認知障害や意識混濁は非典型的。\n- **b　パニック症**：不安はあるが、主訴はパニック発作ではなく、認知障害が目立つ。\n- **c　症状性精神障害**：全身疾患（SLE＋ステロイド治療）により引き起こされた急性精神障害と考えられる。\n- **d　遅発性ジスキネジア**：運動症状（顔面や四肢の不随意運動）が特徴で、本症例の認知障害とは一致しない。\n- **e　統合失調症の再燃**：統合失調症の再燃であれば幻覚・妄想が強く出現するのが通常だが、ここでは意識障害が主体。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-36",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-37",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-38",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-39",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-4",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-40",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-41",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、14歳の男子が発熱と皮疹を主訴に来院し、咽頭痛の既往があり、現在は高熱（39.8℃）と顔面・体幹への広範囲な紅斑・水疱・びらんが見られる。また、結膜充血や口腔粘膜の発赤・出血斑も認められている。\n\n臨床所見として以下の特徴が目立ちます：\n- 高熱\n- 結膜充血\n- 口腔粘膜の病変\n- 皮膚・粘膜の広範囲なびらん性病変\n- 肝機能障害（AST, ALT, LD上昇）\n- CRP 上昇\n\nこれらは**Stevens-Johnson症候群（SJS）または中毒性表在壊死性エピゼリオニューローゼ（TEN）**を強く疑わせる典型的所見です。特に、**広範囲の皮膚・粘膜のびらん**と**全身症状**が特徴的です。\n\n### 治療方針：\n- **原因薬剤の即時中止**（NSAIDなど）\n- **重症度に応じた入院と呼吸管理**（本症例ではすでに鎮静下で呼吸管理開始）\n- **感染予防**\n- **皮膚科との連携**\n- **免疫抑制療法**（ステロイド使用については議論があるが、早期から適切な投与が推奨される）\n\n### 各選択肢の検討：\n\na　抗菌薬  \n→ 感染予防や合併感染の治療には有効だが、基本的な治療ではない。\n\nb　NSAID  \n→ 本症例ではNSAIDが原因薬剤の可能性が高いので、禁忌。\n\nc　抗ウイルス薬  \n→ 原因がウイルスであれば考えられうるが、SJS/TENの主要な原因は**薬物反応**であるため、通常は不適当。\n\nd　抗ヒスタミン薬  \n→ アレルギー症状緩和には使われるが、SJS/TENのような重篤な病態に対しては不十分。\n\ne　グルココルチコイド  \n→ 免疫抑制作用により炎症を抑える。SJS/TENにおける**標準的治療薬の一つ**とされる。\n\n### 結論：\nこの症例において最も適切な治療薬は「**グルココルチコイド**」です。\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-42",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-43",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-44",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "この患者の心雑音は、**胸骨左縁第4肋間**に位置し、**収縮期雑音**であり、**IV音**を伴っています。また、Levine 4/6という強度からも、**肥大型心筋症（HCM）**や**主動脈弁狭窄症**などの可能性が考えられますが、IV音と特徴的な場所から**肥大型梗阻性心筋症（HOCM）**の可能性が高いです。\n\n### HOCMにおける心雑音の増強因子\n- **Valsalva手技**：増強（心室の収縮能低下により流出路の梗阻が強化される）\n- **立位**：増強（前負荷減少 → 梗阻増強）\n- **頻脈**：増強（収縮期短縮で相対的に雑音が強調される）\n- **β遮断薬（ジソピラミドなど）**：減弱（心収縮力を低下させるため、流出路梗阻が軽減）\n\n一方で、**硝酸薬**（c）は血管拡張作用により**前負荷が減少**し、HOCMでは**梗阻が増強**するため、**雑音が増強**します。\n\n---\n\nしたがって、**誤っている選択肢は「硝酸薬投与」ではなく、硝酸薬は増強因子である**ため、問題文の「誤っているのはどれか？」に対して、正解は：\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-45",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-46",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-47",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-48",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-49",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、以下の所見から**腎不全を伴う多発性骨髄腫**の可能性が高く思われます：\n\n- **全身倦怠感、口渇、息切れ**（全身症状）\n- **貧血（Hb 6.9 g/dL、Ht 20％）**\n- **腎機能障害（クレアチニン 5.5 mg/dL、尿素窒素 56 mg/dL）**\n- **高カルシemia（Ca 12.1 mg/dL）**\n- **M蛋白陽性（血清免疫電気泳pling）**\n\n### 肾障害に対する緊急性の高い対処：\n腎不全の原因が多発性骨髄腫による場合、**尿中に存在する遊離軽鎖（Bence Jones protein）**が腎小管を傷害することがあります。また、**高カルシemia**や**脱水状態**も腎障害を悪化させる要因です。\n\nこの患者では、**口腔・腋窩の乾燥、皮膚ツルゴール低下**から**脱水**が推定され、腎障害の悪化に関与していると考えられます。\n\n---\n\n### 選択肢の検討：\n\n- **a　血液透析**：腎不全に対しては考慮されるが、**まず脱水と高カルシemiaの改善**が必要であり、一時的な透析でなく**初期対応としては不適切**。\n- **b　尿酸降下薬投与**：尿酸値はやや高いが、主な問題は尿毒症や高カルシemiaではなく、**優先順位は低い**。\n- **c　生理食塩液持続投与**：**脱水の改善**により腎機能の回復を図るため、**最優先の対処**である。\n- **d　エリスロポエチン製剤投与**：貧血治療として有効だが、**腎障害そのものの改善には寄与しない**。\n- **e　活性型ビタミンD製剤投与**：低カルシemia時に用いられるが、**この患者では高カルシemia**なので禁忌。\n\n---\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-5",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "Addison病（副腎不全）では、副腎皮質が機能低下し、主にコルチゾールとアルドステロンの分泌が減少します。これにより以下の代謝異常が生じます：\n\n- **低ナトリウム血症**：アルドステロン不足によりナトリウムの再吸収が低下する。\n- **高カリウム血症**：アルドステロンが減少するとカリウムの排泄が低下する。\n- **低血糖**：コルチゾール不足によりグルコース生成が抑制される。\n\nしたがって、正しい選択肢は：\n\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-50",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-51",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-52",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-53",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この患者は88歳の女性で、慢性にわたる消化器症状（心窩部痛、悪心、嘔吐）により長期にわたる栄養不良を呈しています。また、体重減少（36 kg、1か月で6 kg）、低アルブミン血症（2.8 g/dL）、尿ケトン体陽性などの所見から、**重度の低栄養状態**が確認できます。\n\nさらに、以下の点も重要です：\n- 呼吸困難を主訴として搬入\n- 胸部右側呼吸音減弱とcoarse crackles：肺への食物吸引による肺炎の可能性\n- 気管内吸引後に低酸素血症が改善した → 食物吸引による気道閉塞や肺炎が原因だった可能性\n- 手術予定\n\n### 各選択肢の検討：\n\n**a　経口摂取を続ける。**  \n→ 現在、嘔吐を繰り返しており、食事摂取ができない状態であるため不適切。\n\n**b　制吐薬を投与する。**  \n→ 嘔吐があるのは事実ですが、現在の緊急性において、まず行うべき対応ではありません。嘔吐の原因（胃内容物の吸入による肺炎など）が解決されない限り、単なる制吐では根本的な改善にはつながりません。\n\n**c　末梢静脈輸液を行う。**  \n→ 血圧98/48 mmHg、意識は清明だが、低栄養・脱水傾向を示す所見があり、輸液による補液が必要と考えられます。特に手術前において、**血流動態の安定化**は重要です。これは現時点での最優先事項の一つです。\n\n**d　高カロリー輸液を行う。**  \n→ 重要な栄養サポートの一環ですが、**重篤な低栄養状態では初期段階ではまずは基本的補液とエネルギー供給の開始**が求められますが、直ちに高カロリー輸液は慎重に評価される必要があります（特に肝機能や代謝異常がないかの確認）。また、**cの「末梢静脈輸液」の方がより緊急性が高い**と考えられます。\n\n**e　アルブミン製剤を投与する。**  \n→ 低アルブミン血症はありますが、**アルブミン補充は一時的なものであり、根本的な治療ではない**。また、感染や炎症がある場合（CRP 3.0 mg/dL）、アルブミン補充は慎重に検討されます。\n\n---\n\n### 結論：\n\n最も早急に行うべき対応は、**血圧低下傾向のある状態における血流動態の安定化**です。そのため、\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-54",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-55",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-56",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "この症例では、3歳の女児が黄疸を主訴として来院しています。母も幼少期からの黄疸と脾摘歴があり、家族性疾患の可能性が高いです。血液所見から以下の特徴が挙げられます：\n\n- 貧血（Hb 10.8 g/dL）\n- 網赤血球増加（6.2％）\n- 脾腫大（4 cm触知）\n- 非結合型ビリルビン上昇（間接ビリルビン優位）\n- LDH 上昇\n- ハプトグロビン減少\n- 直接Coombs試験陰性\n- 赤血球浸透圧抵抗低下\n\nこれらの所見は**遺伝性球形赤血球症**に非常に特徴的です。特に、直接Coombs試験陰性と赤血球浸透圧抵抗低下は、免疫性溶血性貧血ではなく、構造異常によるもの（本症例では球形赤血球）であることを示します。\n\n---\n\n問題文では「**集団生活開始にあたり、注意すべき感染性疾患**」と問われています。これは、「**集団生活で発症リスクが高まり、本人や周囲への影響が懸念される感染症**」を指しています。\n\nこの患者には**脾機能不全**（既往の脾腫大、脾摘の家族歴など）が疑われるため、**重症化しやすい感染症**に注意が必要です。\n\n選択肢の中では、以下の疾患が該当します：\n\n- **e　溶連菌感染症**：通常、咽頭炎や扁桃炎を引き起こしますが、重大な合併症は稀です。\n- **a　手足口病**：軽症で、免疫低下者でも重篤化はまれ。\n- **b　伝染性紅斑**：軽症、合併症も少ない。\n- **d　風疹**：妊娠初期の妊婦に注意が必要ですが、小児では軽症。\n- **c　伝染性単核球症**：**EBウイルス**による感染症であり、**脾腫大がある場合に破裂の危険性**があるため、**脾機能低下や既存の脾腫大がある患者では特に注意が必要**です。\n\n---\n\nしたがって、**脾腫大や脾機能不全が疑われる症例において、伝染性単核球症のような脾腫大を伴う感染症は、脾破裂のリスクがあるため、特に注意すべき感染症**です。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-57",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-58",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-59",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-6",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-60",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-61",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-62",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-63",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-64",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-65",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-66",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この患者はリンゴを食べた直後に口腔内違和感と咽頭掻痒感を訴え、数分で消失し全身症状がなかった。これは**食物アレルギーの典型的な局所反応**（口腔アレルギーシンドローム）と考えられる。\n\n診断に最も有用な検査は、**特定のアレルゲンに対する即時型アレルギー反応を評価する**ものである。\n\n選択肢ごとの検討：\n\n- **a 口腔粘膜生検**：組織学的異常を評価するが、アレルギー反応の診断には不適。\n- **b パッチテスト**：遅延型アレルギー（主に接触性皮膚炎）を評価する検査であり、不適切。\n- **c プリックテスト**：**皮膚に少量のアレルゲンを刺入して即時反応を評価する検査**で、食物アレルギーの診断に最適。\n- **d 血清総IgE抗体測定**：アトピー素因のある人かどうかを示すが、**特定のアレルゲンによる反応は診断できない**。\n- **e 末梢血好酸球数測定**：慢性寄生虫感染やアトピー性疾患に関連するが、急性食物アレルギーの診断には不十分。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-67",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-68",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-69",
+      "predicted": [
+        "c",
+        "e"
+      ],
+      "gold": [
+        "c",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-7",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-70",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-71",
+      "predicted": [
+        "a",
+        "d"
+      ],
+      "gold": [
+        "a",
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-72",
+      "predicted": [
+        "d",
+        "e"
+      ],
+      "gold": [
+        "d",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、高血糖とHbA1c 9.6%から**糖尿病**が強く疑われます。尿糖＋＋＋や蛋白尿の所見も糖尿病性腎症を示唆します。主訴である夜間のこむら返りと起立時のめまいは、**末梢神経障害**によるものと考えられます。\n\n糖尿病では**感覚性の末梢神経障害**がよくみられ、特に**足先・足底などの遠位部分に触覚や振動覚の低下**が生じることが多いです。したがって、以下の選択肢が適切です：\n\n- **d　足先および足底の触覚の鈍麻**  \n- **e　足関節内側における振動覚の低下**\n\nこれらは典型的な**糖尿病性神経障害**の所見です。\n\n【回答】d,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-73",
+      "predicted": [
+        "c",
+        "e"
+      ],
+      "gold": [
+        "c",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-74",
+      "predicted": [
+        "a",
+        "b",
+        "c"
+      ],
+      "gold": [
+        "a",
+        "b",
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,b,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-75",
+      "predicted": [
+        "2 8"
+      ],
+      "gold": [
+        "28"
+      ],
+      "correct": false,
+      "raw_response": "身長173cm、体重84kgのBMIを計算します。\n\n$$\n\\text{BMI} = \\frac{\\text{体重（kg）}}{\\text{身長（m）}^2}\n$$\n\n$$\n\\text{BMI} = \\frac{84}{(1.73)^2} = \\frac{84}{2.9929} ≒ 28.07\n$$\n\n小数第1位を四捨五入すると、**28**になります。\n\n【回答】2 8",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-8",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120D-9",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-1",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-10",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-11",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-12",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-13",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-14",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この問題は、**ベイズの定理**を用いて解く確率計算の問題です。\n\n---\n\n### 与えられた情報：\n- **感度（Sensitivity）**：99% = 0.99  \n- **特異度（Specificity）**：60% = 0.60  \n- **検査前確率（Prevalence/Pre-test probability）**：30% = 0.30  \n\n求めたいのは、「抗核抗体が陽性の場合に SLE である確率」→ **陽性的中率（Positive Predictive Value: PPV）**\n\n---\n\n### ベイズの定理による陽性的中率の公式：\n\n$$\nPPV = \\frac{感度 \\times 検査前確率}{感度 \\times 検査前確率 + (1 - 特異度) \\times (1 - 検査前確率)}\n$$\n\n代入すると：\n\n$$\nPPV = \\frac{0.99 \\times 0.30}{0.99 \\times 0.30 + (1 - 0.60) \\times (1 - 0.30)}\n$$\n\n$$\n= \\frac{0.297}{0.297 + 0.40 \\times 0.70}\n= \\frac{0.297}{0.297 + 0.28}\n= \\frac{0.297}{0.577} ≈ 0.5147\n$$\n\n---\n\n### 結論：\n抗核抗体が陽性の場合に SLE である確率は約 **51.5%** → **最も近い選択肢は c**\n\n---\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-15",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-16",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-17",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "抜糸（抜糸処置）は、縫合した創部を適切に開放するために行う重要な手技です。その際、剪刀で切離すべき場所は、**最も近位側の余分な縫合糸**であり、通常は皮膚表面から出ている部分の根元近くが適切な切断点です。\n\n問題文および断面図（別冊No.1）の記載によれば、「鑷子で縫合糸を挙上している」とあり、この状態での抜糸操作においては、**挙上された縫合糸の基部に近い位置**（つまり、皮膚に刺入していない部分の根元）を剪断するのが正しい方法です。\n\nこのような条件下では、**①** が最も近位側で、かつ安全に切離せる部位です。\n\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-18",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-19",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-2",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-20",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-21",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-22",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-23",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-24",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-25",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-26",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-27",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-28",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "このケースは典型的な急性腎炎（特に**急性糸球体腎炎**）の臨床像です。主訴である血尿と浮腫、過去の咽頭感染歴、ASO価の上昇、補体C3およびCH50の低下などの免疫学的所見から、**溶連菌感染後急性糸球体腎炎**が強く疑われます。\n\n---\n\n### 臨床経過・検査所見の要点：\n- **咽頭感染歴2週間前**\n- **浮腫 + 血尿 + 蛋白尿**\n- **高血圧：120/70 mmHg（小児ではやや高い値）**\n- **尿素窒素上昇（23 mg/dL）** → 腎機能障害の徴候\n- **ASO価上昇（698単位）**\n- **C3、C4、CH5₀低下** → 典型的な急性糸球体腎炎の補体パターン\n\n---\n\n### 治療上の対応：\n- 急性期における**浮腫と高血圧の管理**が重要。\n- 通常、**食塩制限（ナトリウム制限）**が最初に行われます。\n- 本症例においては、尿蛋白が2＋あるものの、アルブミン値は正常であり、**大量蛋白尿や低アルブミン血症による浮腫（腎症候群）ではない**ため、リン、カルシウム、マグネシウムの特別な制限は求められません。\n- **カリウムもクレアチニンが0.7 mg/dLと正常範囲内**で、高カリウム血症の懸念もない。\n\n---\n\n### 正解：\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-29",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "この患者の状況を整理すると、以下のような特徴があります：\n\n- 37歳の女性で、脳梗塞により右不全片麻痺が残存している。\n- 言語障害はなく、食事はできるが、着替えやトイレ動作には介助が必要。\n- 通院にも家族の付き添いが必要。\n- 勤務していたが現在は休職中で復職の見込みがない。\n- 家族構成員に夫（38歳、正社員）と10歳の長女がいる。\n\nそれぞれの制度について検討します：\n\n---\n\n**a. 介護保険**  \n→ 利用可能。  \n40歳未満でも、重度の身体・知的障害がある場合や、要介護認定を受けた場合は利用可能です。この患者は日常生活動作（ADL）に制限があり、介助が必要なため、**介護保険**の利用が考えられます。\n\n---\n\n**b. 障害年金**  \n→ 現時点では該当しない可能性が高い。  \n障害年金は、国民年金の被保険者期間が一定以上あること、そして障害の程度が「ろう」または「はんれん」に該当する必要があります。また、37歳という若い年齢で受給可能なケースは限定的です。現状の情報からは、**障害年金**は利用できない可能性が高いです。\n\n---\n\n**c. 生活保護**  \n→ 明確な経済的困窮がなければ利用は困難。  \n生活保護は生活に必要な最低限度の衣食住を保障するための制度ですが、夫が正社員であり、家庭全体の収入が生活保護基準を超える可能性が高いです。そのため、**生活保護**は適用されない可能性が強いです。\n\n---\n\n**d. 労災保険**  \n→ 脳梗塞が業務上から生じたものでなければ適用不可。  \n問題文には「感染性心内膜炎から脳梗塞」と記載されており、仕事中の事故によるものとは書かれていません。したがって、**労災保険**は適用されないと考えられます。\n\n---\n\n**e. 指定難病医療費助成制度**  \n→ 脳梗塞は対象外。  \n指定難病医療費助成制度は特定の難病に対して適用されるものであり、脳梗塞は含まれていません。\n\n---\n\n【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-3",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-30",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-31",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-32",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-33",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "この患者は、炎天下での運動後に頭痛、悪心、歩行不能をきたし、意識障害で搬入されています。また、発汗がなく、皮膚が乾燥かつ熱感を呈しており、脱水症状と熱中症（特に熱射病）の可能性が高い状況です。\n\n**熱射病では中枢性体温調節機能が障害されているため、体表や口腔などの部位では正確な体温を測定できません**。最も信頼できる体温は**直腸温**であり、これが診断および治療指針決定において重要です。\n\nしたがって、**最も適切な体温測定部位は直腸です**。\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-34",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-35",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-36",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-37",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-38",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-39",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-4",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-40",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "この問題では、交通事故による左下腿切断という身体的障害を背景に、退院後に適切な支援を受けられるようにするために勧めるべき手続を選ぶ必要があります。\n\n選択肢の検討：\n\n- **a　失業等給付の申請**  \n　→ 現在は職場復帰を目指しており、失業しているわけではないので不適切。\n\n- **b　要介護認定の申請**  \n　→ 一般的には高齢者や重度の生活機能障害者が対象であり、現時点での必要性は低い。\n\n- **c　身体障害者手帳の申請**  \n　→ 左膝下切断という身体的な障害があるため、日常生活や社会生活への支援として最も適切な選択肢。\n\n- **d　成年後見制度の利用手続**  \n　→ 身体的障害があるからといって必ずしも判断能力が低下しているわけではなく、不適切。\n\n- **e　労働災害補償給付の申請**  \n　→ 休日に起きた事故であり、労災の対象とはならない可能性が高い（業務外）。\n\n【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-41",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-42",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-43",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-44",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-45",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-46",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-47",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-48",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-49",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-5",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-50",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-6",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-7",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-8",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120E-9",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-1",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-10",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-11",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-12",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-13",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-14",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "費用対効果を評価する際には、禁煙成功者一人あたりの費用が最も低いほど効率的であると判断されます。\n\n選択肢ごとの「禁煙成功者一人あたりの費用」は以下の通りです：\n- a: 100,000円\n- b: 77,778円\n- c: 111,111円\n- d: 60,000円\n- e: 80,000円\n\nこの中で最も低いのは **d** の **60,000円** です。\n\n【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-15",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-16",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-17",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-18",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-19",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-2",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-20",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-21",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-22",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-23",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-24",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-25",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-26",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-27",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-28",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-29",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-3",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-30",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-31",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-32",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-33",
+      "predicted": [
+        "b",
+        "e"
+      ],
+      "gold": [
+        "b",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e,b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-34",
+      "predicted": [
+        "c",
+        "d"
+      ],
+      "gold": [
+        "c",
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-35",
+      "predicted": [
+        "a",
+        "c",
+        "e"
+      ],
+      "gold": [
+        "a",
+        "c",
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,c,e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-36",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-37",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-38",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-39",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-4",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-40",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、14歳の長女が学校検尿で尿糖陽性を指摘され、糖尿病と診断されています。また、聴力低下（感音性難聴）やケトン体陽性などの所見から、**ミトコンドリア遺伝性疾患**を疑います。\n\n特に、母親も感音性難聴と33歳での糖尿病発症があり、遺伝子検査で**ミトコンドリアDNAの変異**が確認されていることから、**ミトコンドリア遺伝性糖尿病および感音性難聴症候群（MIDD：Maternally Inherited Diabetes and Deafness）** と診断されます。\n\n---\n\n### ミトコンドリア遺伝の特徴：\n- **母系遺伝**（母親のみから受け継ぐ）\n- 父親は自分のミトコンドリアDNAを子に伝えない\n- 母親が変異を持つ場合、すべての子供がその変異を受け継ぐ可能性がある\n- 表現型は変異の割合（ヘテロプラジミー）により異なる\n\n---\n\n### 各選択肢の検討：\n\n**a　父親は保因者である。**  \n→ 錯誤。ミトコンドリアDNAは母系遺伝なので、父親は保因者にはならない。\n\n**b　母親も長女と同じバリアント〈変異〉を持つと予想される。**  \n→ **正しい**。母親も糖尿病と感音性難聴があり、長女と同様の症状と変異があるため、母親も同じ変異を持っていると考えられる。\n\n**c　妹（次女）は50％の確率で糖尿病を発症する。**  \n→ 錯誤。ミトコンドリアDNAは母系遺伝であり、母親が変異を持っていれば、すべての子供が変異を受け継ぐ可能性がある。ただし、発症はヘテロプラジミーにより個人差がある。\n\n**d　妊娠中の次子は男児であれば糖尿病を発症しない。**  \n→ 錯誤。ミトコンドリアDNAは母系遺伝だが、男児であっても変異を受け継ぎ得る。発症は変異の量や組織への影響によるので、性別に関係なく発症する可能性がある。\n\n**e　家族全員の遺伝子検査が必要である。**  \n→ 不正確。すべての家族に対して必須ではないが、特に母親や妹などの直系血族に対しては推奨される。しかし、「全員」が必ずしも適切な表現ではない。\n\n---\n\n【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-41",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-42",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-43",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "この患者さんは、胃癌のため食事摂取が困難であり、輸液療法でエネルギー補充を行っています。また、両下肢のしびれと筋けいれんという症状があります。\n\nこのような状況では、**ビタミンB₁（チアミン）欠乏症**を疑う必要があります。特に、**アルコール依存症や栄養状態の悪化、長期にわたる高糖質輸液**などの状況では、**ウェルニッケ脳症**や**脚気**（げか）などのビタミンB₁欠乏による病気が発生するリスクがあります。  \nこれらの疾患は、神経系の障害（しびれ、けいれんなど）を引き起こす可能性があり、本症例でも見られる症状と一致します。\n\nしたがって、**輸液に添加すべきビタミンとしては、ビタミンB₁が優先度が高い**と考えられます。\n\n【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-44",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-45",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-46",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-47",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-48",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "この症例では、55歳の男性が**口渇、多飲、多尿**を主訴として来院しています。尿量が6〜8 L/日と非常に多く、口腔内が乾燥していることから、**水分不足**や**糖尿病性多尿**、または**尿崩症**などの可能性が考えられます。\n\n所見として：\n\n- 尿所見は蛋白（－）、糖（－）であり、**糖尿病による高血糖性多尿ではない**ことが示唆されます。\n- 多尿があるにもかかわらず尿に糖がなく、蛋白も陰性であることから、**腎性尿崩症**や**中枢性尿崩症**が疑われます。\n- MRI画像については記載がないため詳細は不明ですが、頭部MRIを撮影していることから、**下垂体や視床下部の病変**（例えば、炎症、腫瘍、出血など）が背景にある可能性があります。\n\nこれらの情報を総合すると、**尿浸透圧が低下している**と考えられ、**尿が希釈されている状態**であることが予測されます。\n\n---\n\n各選択肢を検討すると：\n\n- **a　尿ケトン体陽性**：糖尿病性ケトアシドーシスなどで見られるが、尿糖が陰性なのでこれは考えにくい。\n- **b　尿浸透圧の低下**：尿崩症の典型的な所見。多尿で尿が希釈されていることを示す。\n- **c　血清尿素窒素の低下**：脱水症状では上昇するが、多尿により尿素が排出されれば低下することもあるが、ここでは明確に言えない。\n- **d　血清ナトリウムの低下**：過剰な水分摂取やSIADHでは低下するが、尿崩症ではむしろ**高ナトリウム血症**になることが多い。\n- **e　脳脊髄液細胞数の増加**：感染症などで見られるが、現時点では関連性が低い。\n\n---\n\nしたがって、最も適切な選択肢は：\n\n【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-49",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-5",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-50",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-51",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-52",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-53",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-54",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-55",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-56",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-57",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-58",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "b",
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-59",
+      "predicted": [
+        "a",
+        "d"
+      ],
+      "gold": [
+        "a",
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-6",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-60",
+      "predicted": [
+        "a",
+        "c"
+      ],
+      "gold": [
+        "b",
+        "c"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a,c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-61",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-62",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-63",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-64",
+      "predicted": [
+        "b",
+        "d"
+      ],
+      "gold": [
+        "b",
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b,d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-65",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-66",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-67",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-68",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-69",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-7",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-70",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-71",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "a"
+      ],
+      "correct": true,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-72",
+      "predicted": [
+        "c"
+      ],
+      "gold": [
+        "c"
+      ],
+      "correct": true,
+      "raw_response": "【回答】c",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-73",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-74",
+      "predicted": [
+        "a"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": false,
+      "raw_response": "【回答】a",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-75",
+      "predicted": [
+        "d"
+      ],
+      "gold": [
+        "d"
+      ],
+      "correct": true,
+      "raw_response": "【回答】d",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-8",
+      "predicted": [
+        "e"
+      ],
+      "gold": [
+        "e"
+      ],
+      "correct": true,
+      "raw_response": "迷走神経（第10脳神経）は副交感神経の主要な経路の一つであり、頭部から胸腔、腹腔上部にかけて広く分布します。その支配域には以下の器官が含まれます：\n\n- 咽頭（a）\n- 気管支（b）\n- 心臓（c）\n- 空腸（d）\n\n一方で、**肛門括約筋（e）**は迷走神経の支配を受けることはなく、主に下位の自律神経系や体性神経によって支配されます。\n\n【回答】e",
+      "parse_success": true,
+      "error": null
+    },
+    {
+      "question_id": "120F-9",
+      "predicted": [
+        "b"
+      ],
+      "gold": [
+        "b"
+      ],
+      "correct": true,
+      "raw_response": "【回答】b",
+      "parse_success": true,
+      "error": null
+    }
+  ]
+}
