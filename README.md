@@ -6,6 +6,8 @@ LLM benchmark on the 120th Japanese Medical Licensing Examination (Feb 7-8, 2026
 
 Previous year (119th): [IgakuQA119](https://github.com/naoto-iwase/IgakuQA119) (Feb 8-9, 2025)
 
+Interactive Viewer: https://jmle2026-bench.streamlit.app
+
 ## Leaderboard
 
 ![Leaderboard](results/leaderboard.png)
