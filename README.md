@@ -96,6 +96,12 @@ The 120th criteria have not yet been announced (expected March 16, 2026). Only c
 - `images/`: 110 clinical images referenced by `clinical_images` field
 - Answers are annotated by the author, not official
 
+## TODO
+
+- [ ] Qwen3.5-27B with Vision
+- [ ] Qwen3.5-122B-A10B (think / no-think)
+- [ ] Qwen3-32B (no-think)
+
 ## License
 
 - Code: [MIT](https://opensource.org/licenses/MIT)
