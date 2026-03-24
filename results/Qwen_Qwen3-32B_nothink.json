@@ -19,18 +19,18 @@
     "display_name": "Qwen3-32B (no-think)"
   },
   "summary": {
-    "accuracy": 0.815,
-    "correct": 326,
-    "incorrect": 74,
-    "score": 416,
+    "accuracy": 0.8175,
+    "correct": 327,
+    "incorrect": 73,
+    "score": 417,
     "score_max": 500,
-    "score_pct": 0.832,
-    "text_only_score": 320,
+    "score_pct": 0.834,
+    "text_only_score": 321,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.8377,
-    "required_score": 176,
+    "text_only_score_pct": 0.8403,
+    "required_score": 177,
     "required_score_max": 200,
-    "required_score_pct": 0.88,
+    "required_score_pct": 0.885,
     "general_score": 240,
     "general_score_max": 300,
     "general_score_pct": 0.8,
@@ -50,9 +50,9 @@
         "accuracy": 0.86
       },
       "C": {
-        "correct": 58,
+        "correct": 59,
         "total": 75,
-        "accuracy": 0.7733
+        "accuracy": 0.7867
       },
       "D": {
         "correct": 60,
@@ -60,21 +60,21 @@
         "accuracy": 0.8
       },
       "E": {
-        "correct": 43,
+        "correct": 44,
         "total": 50,
-        "accuracy": 0.86
+        "accuracy": 0.88
       },
       "F": {
-        "correct": 63,
+        "correct": 62,
         "total": 75,
-        "accuracy": 0.84
+        "accuracy": 0.8267
       }
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 326,
+        "correct": 327,
         "total": 397,
-        "accuracy": 0.8212
+        "accuracy": 0.8237
       },
       "calculation": {
         "correct": 0,
@@ -84,9 +84,9 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 250,
+        "correct": 251,
         "total": 302,
-        "accuracy": 0.8278
+        "accuracy": 0.8311
       },
       "with_image": {
         "correct": 76,
@@ -2425,9 +2425,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null
@@ -2589,7 +2589,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】a",
@@ -4323,9 +4323,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null
@@ -4877,9 +4877,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】e",
       "parse_success": true,
       "error": null
@@ -5074,7 +5074,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】a,c",

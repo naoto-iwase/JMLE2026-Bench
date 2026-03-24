@@ -15,21 +15,21 @@
     "display_name": "GPT-5.2"
   },
   "summary": {
-    "accuracy": 0.97,
-    "correct": 388,
-    "incorrect": 12,
-    "score": 488,
+    "accuracy": 0.965,
+    "correct": 386,
+    "incorrect": 14,
+    "score": 486,
     "score_max": 500,
-    "score_pct": 0.976,
-    "text_only_score": 375,
+    "score_pct": 0.972,
+    "text_only_score": 376,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.9817,
-    "required_score": 198,
+    "text_only_score_pct": 0.9843,
+    "required_score": 199,
     "required_score_max": 200,
-    "required_score_pct": 0.99,
-    "general_score": 290,
+    "required_score_pct": 0.995,
+    "general_score": 287,
     "general_score_max": 300,
-    "general_score_pct": 0.9667,
+    "general_score_pct": 0.9567,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
@@ -46,9 +46,9 @@
         "accuracy": 1.0
       },
       "C": {
-        "correct": 72,
+        "correct": 71,
         "total": 75,
-        "accuracy": 0.96
+        "accuracy": 0.9467
       },
       "D": {
         "correct": 73,
@@ -56,21 +56,21 @@
         "accuracy": 0.9733
       },
       "E": {
-        "correct": 48,
+        "correct": 49,
         "total": 50,
-        "accuracy": 0.96
+        "accuracy": 0.98
       },
       "F": {
-        "correct": 71,
+        "correct": 69,
         "total": 75,
-        "accuracy": 0.9467
+        "accuracy": 0.92
       }
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 385,
+        "correct": 383,
         "total": 397,
-        "accuracy": 0.9698
+        "accuracy": 0.9647
       },
       "calculation": {
         "correct": 3,
@@ -80,14 +80,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 295,
+        "correct": 296,
         "total": 302,
-        "accuracy": 0.9768
+        "accuracy": 0.9801
       },
       "with_image": {
-        "correct": 93,
+        "correct": 90,
         "total": 98,
-        "accuracy": 0.949
+        "accuracy": 0.9184
       }
     }
   },
@@ -2522,7 +2522,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】a",
@@ -2692,9 +2692,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】e",
       "parse_success": true,
       "error": null
@@ -4503,9 +4503,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -5083,9 +5083,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】e",
       "parse_success": true,
       "error": null
@@ -5284,9 +5284,9 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】b,e",
       "parse_success": true,
       "error": null,

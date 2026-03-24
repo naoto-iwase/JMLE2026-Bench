@@ -17,15 +17,15 @@
     "score": 473,
     "score_max": 500,
     "score_pct": 0.946,
-    "text_only_score": 366,
+    "text_only_score": 365,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.9581,
-    "required_score": 190,
+    "text_only_score_pct": 0.9555,
+    "required_score": 189,
     "required_score_max": 200,
-    "required_score_pct": 0.95,
-    "general_score": 283,
+    "required_score_pct": 0.945,
+    "general_score": 284,
     "general_score_max": 300,
-    "general_score_pct": 0.9433,
+    "general_score_pct": 0.9467,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
@@ -52,14 +52,14 @@
         "accuracy": 0.9333
       },
       "E": {
-        "correct": 48,
+        "correct": 47,
         "total": 50,
-        "accuracy": 0.96
+        "accuracy": 0.94
       },
       "F": {
-        "correct": 70,
+        "correct": 71,
         "total": 75,
-        "accuracy": 0.9333
+        "accuracy": 0.9467
       }
     },
     "by_type": {
@@ -76,14 +76,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 290,
+        "correct": 289,
         "total": 302,
-        "accuracy": 0.9603
+        "accuracy": 0.957
       },
       "with_image": {
-        "correct": 89,
+        "correct": 90,
         "total": 98,
-        "accuracy": 0.9082
+        "accuracy": 0.9184
       }
     }
   },
@@ -2594,7 +2594,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】a",
@@ -2770,7 +2770,7 @@
         "c"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】c",
@@ -4636,9 +4636,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "血液培養では、まず好気性ボトルに血液を入れ、その後に嫌気性ボトルに入れるのが推奨される。  \n\n【回答】e",
       "parse_success": true,
       "error": null,
@@ -5232,9 +5232,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "妊娠30週で軽度の多羊水症（AFI 28 cm）を認め、母体糖尿病や胎児奇形は除外できている。まずは多羊水症に伴う早産リスクを評価すべきであり、頸管長の測定で子宮頸部の状態を確認するのが次のステップになる。  \n\nしたがって、最初に行うべき対応は子宮頸管長測定である。\n\n【回答】b",
       "parse_success": true,
       "error": null,
@@ -5444,7 +5444,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】b,c",

@@ -2542,7 +2542,7 @@
     "requires_image": true,
     "num_choices_to_select": 1,
     "answer": [
-      "e"
+      "b"
     ]
   },
   {
@@ -2758,7 +2758,7 @@
     "requires_image": true,
     "num_choices_to_select": 1,
     "answer": [
-      "e"
+      "b"
     ],
     "serial_group": {
       "group_id": "120C-67-69",
@@ -4069,7 +4069,7 @@
     "requires_image": false,
     "num_choices_to_select": 1,
     "answer": [
-      "e"
+      "b"
     ]
   },
   {
@@ -5316,7 +5316,7 @@
     "requires_image": true,
     "num_choices_to_select": 1,
     "answer": [
-      "e"
+      "b"
     ]
   },
   {
@@ -5509,7 +5509,7 @@
     "num_choices_to_select": 2,
     "answer": [
       "b",
-      "e"
+      "d"
     ]
   },
   {

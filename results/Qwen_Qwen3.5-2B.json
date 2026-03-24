@@ -11,21 +11,21 @@
     "display_name": "Qwen3.5-2B"
   },
   "summary": {
-    "accuracy": 0.3625,
-    "correct": 145,
-    "incorrect": 255,
-    "score": 193,
+    "accuracy": 0.3675,
+    "correct": 147,
+    "incorrect": 253,
+    "score": 195,
     "score_max": 500,
-    "score_pct": 0.386,
-    "text_only_score": 160,
+    "score_pct": 0.39,
+    "text_only_score": 161,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.4188,
-    "required_score": 91,
+    "text_only_score_pct": 0.4215,
+    "required_score": 92,
     "required_score_max": 200,
-    "required_score_pct": 0.455,
-    "general_score": 102,
+    "required_score_pct": 0.46,
+    "general_score": 103,
     "general_score_max": 300,
-    "general_score_pct": 0.34,
+    "general_score_pct": 0.3433,
     "required_pass": false,
     "general_pass": false,
     "parse_failures": 43,
@@ -42,9 +42,9 @@
         "accuracy": 0.4
       },
       "C": {
-        "correct": 26,
+        "correct": 27,
         "total": 75,
-        "accuracy": 0.3467
+        "accuracy": 0.36
       },
       "D": {
         "correct": 23,
@@ -52,9 +52,9 @@
         "accuracy": 0.3067
       },
       "E": {
-        "correct": 23,
+        "correct": 24,
         "total": 50,
-        "accuracy": 0.46
+        "accuracy": 0.48
       },
       "F": {
         "correct": 28,
@@ -64,9 +64,9 @@
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 145,
+        "correct": 147,
         "total": 397,
-        "accuracy": 0.3652
+        "accuracy": 0.3703
       },
       "calculation": {
         "correct": 0,
@@ -76,14 +76,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 120,
+        "correct": 121,
         "total": 302,
-        "accuracy": 0.3974
+        "accuracy": 0.4007
       },
       "with_image": {
-        "correct": 25,
+        "correct": 26,
         "total": 98,
-        "accuracy": 0.2551
+        "accuracy": 0.2653
       }
     }
   },
@@ -2558,9 +2558,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "",
       "parse_success": true,
       "error": null,
@@ -2731,7 +2731,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "",
@@ -4563,9 +4563,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "",
       "parse_success": true,
       "error": null,
@@ -5155,7 +5155,7 @@
       "question_id": "120F-44",
       "predicted": [],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "",
@@ -5358,7 +5358,7 @@
       "predicted": [],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "",

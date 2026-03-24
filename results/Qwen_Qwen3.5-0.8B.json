@@ -11,18 +11,18 @@
     "display_name": "Qwen3.5-0.8B"
   },
   "summary": {
-    "accuracy": 0.2775,
-    "correct": 111,
-    "incorrect": 289,
-    "score": 155,
+    "accuracy": 0.28,
+    "correct": 112,
+    "incorrect": 288,
+    "score": 156,
     "score_max": 500,
-    "score_pct": 0.31,
-    "text_only_score": 122,
+    "score_pct": 0.312,
+    "text_only_score": 123,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.3194,
-    "required_score": 84,
+    "text_only_score_pct": 0.322,
+    "required_score": 85,
     "required_score_max": 200,
-    "required_score_pct": 0.42,
+    "required_score_pct": 0.425,
     "general_score": 71,
     "general_score_max": 300,
     "general_score_pct": 0.2367,
@@ -52,9 +52,9 @@
         "accuracy": 0.2133
       },
       "E": {
-        "correct": 20,
+        "correct": 21,
         "total": 50,
-        "accuracy": 0.4
+        "accuracy": 0.42
       },
       "F": {
         "correct": 22,
@@ -64,9 +64,9 @@
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 111,
+        "correct": 112,
         "total": 397,
-        "accuracy": 0.2796
+        "accuracy": 0.2821
       },
       "calculation": {
         "correct": 0,
@@ -76,9 +76,9 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 88,
+        "correct": 89,
         "total": 302,
-        "accuracy": 0.2914
+        "accuracy": 0.2947
       },
       "with_image": {
         "correct": 23,
@@ -2577,7 +2577,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "",
@@ -2750,7 +2750,7 @@
         "d"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "",
@@ -4607,9 +4607,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "",
       "parse_success": true,
       "error": null,
@@ -5200,7 +5200,7 @@
         "d"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "",
@@ -5407,7 +5407,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "この問題は、妊娠中胎心障害（SVT）または高解離性の胎盤下流部解離（台北心臓）の初期確診および急性胎心停止に対する対応を問う問題です。\n\n**正解を 2 つ選びます。**\n\n1.  **神経源性高解離性の胎盤下流部解離 (Nartystypal Hyperplastic Placental Achondroplasia - HPA):** 27 歳になり妊娠 39 週、経産婦（f 型）という女性です。この様子は、N-1 型血栓性胎盤下流部解離と極めて類似しています。\n2.  **急死 (Acute Embolism) あるいは急速紡錘痙攣 (Acute Carcinomatosis) の可能性:** 2 レベル以上の瘤細胞可能あるいは重篤な解離性の胎盤下流部解離患者に対しての治療の基本的な原則は、「高解離性を采取して胎盤の下部除去（突き出し）を行い、急死（または紡錘痙攣）を減らす」ことです。\n\n**選択肢の分析:**\n\n*   **a) 陣痛促進:** 胎盤下流部解離で胎動の危険性があるため実施すべきではありません。\n*   **b) 体位変換:** 体位変換は胎盤下流部解離内に胎児が位置し、解離を試みる必要があるため、発病時（破水・分娩開始後）に行わず、発見後しか行うのが原則です。\n*   **d) 経腹超音波検査:** 高解離性の解離新生物を取った後、あるいは胎盤から解離を引き起こす可能性のある経験のある新生物を見逃さず、発病する前でも検査することは不適切であり、治療前を行わないです。\n*   **e) 子宮収縮抑制薬の投与:** 本研究では子宮収縮薬の投与について確立された指南がないとですが、一般化原則として解離菌による急死を減らすための抗蕁麻薬（多価シロメチンなど）を投与することで解離予防が目的になり、これは一般的な対応科目として非常に頻繁に存在します（Hypertonic Water Therapy の一部と関連付けられることもあります）。また、解離菌による急死（QRS 波長の延緩）を減らす意味で、コントロールが重要です。\n*   **c) 緊急帝王切開 (Emergency Cesarean Reperfusion):** しかし、Nartystypal Hyperplasia は解剖学的特徴として胎盤を固定した解離を生じさせるので、**切開**を行う必要はありません。\n\n**結論：**\n\nF 型菌性の経産婦で起こる胎盤下流部の高解離（Nartystypal Hyperplasia）の治療または（解離治療に関する）一般的な対応としては、**子宮収縮抑制薬（e）のみ**や**体位変換**。ただし、体位変換については胎児が解離中心に位置しているため行いません。\n\n※本問の設問では、普通例や判别規則等の詳細がないため、最善の対応（Eureu)を中心にどうぞ。体位変換は胎動危険所がわからない時点で、高解離を采取して胎盤の下部除去（突き出し）して胎児を解離のを減らして胎動の危険性を減らすための基本治療です。\n\n### 【答】e\\nb\n\n【回答】e",

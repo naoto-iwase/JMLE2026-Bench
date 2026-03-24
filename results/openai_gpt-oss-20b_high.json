@@ -13,21 +13,21 @@
     "display_name": "gpt-oss-20b (high)"
   },
   "summary": {
-    "accuracy": 0.8375,
-    "correct": 335,
-    "incorrect": 65,
-    "score": 423,
+    "accuracy": 0.8425,
+    "correct": 337,
+    "incorrect": 63,
+    "score": 425,
     "score_max": 500,
-    "score_pct": 0.846,
-    "text_only_score": 331,
+    "score_pct": 0.85,
+    "text_only_score": 332,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.8665,
-    "required_score": 173,
+    "text_only_score_pct": 0.8691,
+    "required_score": 174,
     "required_score_max": 200,
-    "required_score_pct": 0.865,
-    "general_score": 250,
+    "required_score_pct": 0.87,
+    "general_score": 251,
     "general_score_max": 300,
-    "general_score_pct": 0.8333,
+    "general_score_pct": 0.8367,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
@@ -54,21 +54,21 @@
         "accuracy": 0.88
       },
       "E": {
-        "correct": 46,
+        "correct": 47,
         "total": 50,
-        "accuracy": 0.92
+        "accuracy": 0.94
       },
       "F": {
-        "correct": 61,
+        "correct": 62,
         "total": 75,
-        "accuracy": 0.8133
+        "accuracy": 0.8267
       }
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 335,
+        "correct": 337,
         "total": 397,
-        "accuracy": 0.8438
+        "accuracy": 0.8489
       },
       "calculation": {
         "correct": 0,
@@ -78,14 +78,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 257,
+        "correct": 258,
         "total": 302,
-        "accuracy": 0.851
+        "accuracy": 0.8543
       },
       "with_image": {
-        "correct": 78,
+        "correct": 79,
         "total": 98,
-        "accuracy": 0.7959
+        "accuracy": 0.8061
       }
     }
   },
@@ -2596,7 +2596,7 @@
         "d"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】d",
@@ -2772,7 +2772,7 @@
         "c"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】c",
@@ -4638,9 +4638,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -5234,9 +5234,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -5446,7 +5446,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】b,c",

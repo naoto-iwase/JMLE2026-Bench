@@ -19,21 +19,21 @@
     "display_name": "Qwen3.5-0.8B (no-think)"
   },
   "summary": {
-    "accuracy": 0.3075,
-    "correct": 123,
-    "incorrect": 277,
-    "score": 157,
+    "accuracy": 0.315,
+    "correct": 126,
+    "incorrect": 274,
+    "score": 160,
     "score_max": 500,
-    "score_pct": 0.314,
-    "text_only_score": 133,
+    "score_pct": 0.32,
+    "text_only_score": 134,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.3482,
-    "required_score": 66,
+    "text_only_score_pct": 0.3508,
+    "required_score": 67,
     "required_score_max": 200,
-    "required_score_pct": 0.33,
-    "general_score": 91,
+    "required_score_pct": 0.335,
+    "general_score": 93,
     "general_score_max": 300,
-    "general_score_pct": 0.3033,
+    "general_score_pct": 0.31,
     "required_pass": false,
     "general_pass": false,
     "parse_failures": 15,
@@ -50,9 +50,9 @@
         "accuracy": 0.3
       },
       "C": {
-        "correct": 23,
+        "correct": 25,
         "total": 75,
-        "accuracy": 0.3067
+        "accuracy": 0.3333
       },
       "D": {
         "correct": 16,
@@ -60,9 +60,9 @@
         "accuracy": 0.2133
       },
       "E": {
-        "correct": 17,
+        "correct": 18,
         "total": 50,
-        "accuracy": 0.34
+        "accuracy": 0.36
       },
       "F": {
         "correct": 31,
@@ -72,9 +72,9 @@
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 123,
+        "correct": 126,
         "total": 397,
-        "accuracy": 0.3098
+        "accuracy": 0.3174
       },
       "calculation": {
         "correct": 0,
@@ -84,14 +84,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 103,
+        "correct": 104,
         "total": 302,
-        "accuracy": 0.3411
+        "accuracy": 0.3444
       },
       "with_image": {
-        "correct": 20,
+        "correct": 22,
         "total": 98,
-        "accuracy": 0.2041
+        "accuracy": 0.2245
       }
     }
   },
@@ -2405,9 +2405,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null
@@ -2569,9 +2569,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null
@@ -4293,9 +4293,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null
@@ -4845,7 +4845,7 @@
         "d"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】d",
@@ -5040,7 +5040,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "正解は **b, c** です。\n\n解説：\n*   **a（陣痛促進）**: 破水後の最初の数時間（特にSPが低く、心拍数が不安定な場合）、胎児の血供を確保するために推奨される対応です。\n*   **b（体位変換）**: 子宮口が開大した後に、胎児の血供を確保するために行われる重要な処置です。\n*   **c（緊急帝王切開）**: このケースでは「急」な状況です。破水から12時間経過し、子宮口が開大してしまっています。この時点で胎児の血供が保たれている可能性が極めて低いと判断されます。したがって、この時点で緊急帝王切開は不適切です。\n*   **d（経腹超音波検査）**: 破水後すぐに行うべきではありません。\n*   **e（子宮収縮抑制薬の投与）**: 破水後すぐには胎児の血供を確保するための処置としては適切ではありません。\n\n【回答】b,c",

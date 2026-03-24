@@ -241,7 +241,7 @@ def _rescore_file(result_path: Path, entries: list[dict]) -> None:
         old_correct = r["correct"]
         old_parse = r["parse_success"]
 
-        correct = is_correct(predicted, e["answer"]) if parse_ok else False
+        correct = is_correct(predicted, e["answer"], e["question_type"]) if parse_ok else False
 
         if predicted != old_predicted or correct != old_correct or parse_ok != old_parse:
             changes.append({

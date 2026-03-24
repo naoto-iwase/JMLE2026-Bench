@@ -17,15 +17,15 @@
     "score": 409,
     "score_max": 500,
     "score_pct": 0.818,
-    "text_only_score": 322,
+    "text_only_score": 323,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.8429,
-    "required_score": 167,
+    "text_only_score_pct": 0.8455,
+    "required_score": 168,
     "required_score_max": 200,
-    "required_score_pct": 0.835,
-    "general_score": 242,
+    "required_score_pct": 0.84,
+    "general_score": 241,
     "general_score_max": 300,
-    "general_score_pct": 0.8067,
+    "general_score_pct": 0.8033,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 5,
@@ -52,14 +52,14 @@
         "accuracy": 0.8533
       },
       "E": {
-        "correct": 42,
+        "correct": 43,
         "total": 50,
-        "accuracy": 0.84
+        "accuracy": 0.86
       },
       "F": {
-        "correct": 57,
+        "correct": 56,
         "total": 75,
-        "accuracy": 0.76
+        "accuracy": 0.7467
       }
     },
     "by_type": {
@@ -76,14 +76,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 252,
+        "correct": 253,
         "total": 302,
-        "accuracy": 0.8344
+        "accuracy": 0.8377
       },
       "with_image": {
-        "correct": 71,
+        "correct": 70,
         "total": 98,
-        "accuracy": 0.7245
+        "accuracy": 0.7143
       }
     }
   },
@@ -2588,7 +2588,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【解答】a\n\n【解析】\n提示された症例は 35 歳の女性で、現従年度に避妊なし、性交egend があるけど 1 ヶ月ごとに交際していることから、不妊症の可能性があります。\n基礎体温が 2 相性で、生化学所見（LH、FSH、PRL、E2）も正常となり、基礎体温が 2 相性であることから排卵症候群の症状は認めません。\nまた、夫の精液検査も正常です（ صحة精液的检查正常）.\n子宮卵管造影像（HSG）を見ると、子宮腔に造影剤が充填し、输卵管（卵管）の造影が認められますが、卵管が線状に造影され、腹部にある（透視を介して）造影は確認されませんが、画像 2A、2B は**不顕影**（造影が散在）_timelinessを介して描画されています。\n具体例：\n画像 2A は HSG で、造影剤が子宮内に注入され、両側卵管に造影剂が注入されることがわかります。しかし、画像 2A、2B は大きな範囲で造影剤が散在し、**输卵管閉塞の予後は预后が良好では**。\nWait, let me correct the image interpretation based on typical exam patterns. Image 2B shows a large amount of contrast in the pelvis which is typical of **tubal factor infertility** due to **tubal obstruction** (specifically **hydrosalpinx** or blocked tubes).\nDiagnosis: **Tubal Infertility (Tubal obstruction)**.\nSince ovulation is normal (BB 2-phase) and husband's sperm is normal, the cause is likely the tubal blockage.\nAppropriate treatments for tubal infertility:\n1.  **Surgery (Salpingostomy/Salpingoplasty)** - Attempt to relieve blockage (Option b).\n2.  **IVF (In Vitro Fertilization)** - Bypass the tubes (Ovulation induction/Gonadotropin therapy is a step of IVF, so Option e can be appropriate in the context of IVF).\n3.  **Timing of intercourse** - Basic advice (Option c).\n\n**Inappropriate Treatment**:\n-   **Artificial Insemination (IUI) (Option a)**: IUI is not indicated for tubal factor infertility because the sperms need to travel through the fallopian tubes to reach the uterus, or the tube function is required for fertilization (if not assisted). If the tubes are blocked, IUI does not work. This is the most strictly inappropriate treatment among the choices for confirmed tubal obstruction.\n-   **Clomiphene (d)**: Not indicated for ovulatory women, but less strict than IUI for tubal factor. However, if IUI is the \"classic\" wrong answer for tubal factor, **a** is selected.\n\nGiven the question asks for the \"inappropriate\" treatment, and IUI is contraindicated for tubal obstruction (where fertilization can't happen naturally or even via IUI if tubes are blocked), **Option a** is the best answer.\n\n【回答】a",
@@ -2764,7 +2764,7 @@
         "a"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】a",
@@ -4626,9 +4626,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "血液培養の採取手順に関する医学的知識に基づき、各選択肢を検討します。\n\na. **皮膚の消毒薬が乾かないうちに採血を行う**\n誤り。皮膚の殺菌薬（ガバゴール酸クロルクソイレートなど）は完全に乾くまでの時間を確保する必要があります。湿っていますと、皮膚から染みを流し込まないように利尿する使用ができません。\n不適切。\n\nb. **採血時には滅菌手袋を使用する**\n正しい。血液培養は菌を分離するために、集める要素から不洁な滅菌の要素を使用して採取します。皮膚から染みが入らないよう、滅菌手袋の使用や滅菌アルコールの消毒、拭き清き、乾燥などが必要。滅菌手袋を使用することは標準的な手順の一部です。\n正解。\n\nc. **同部位から複数回採取する**\n誤り。採血部位は、ボリュームが高く、炎症や症候がある場合は、できる限り異なる部位（例：対称性の左右）で採取するのが一般的ですので、同一部位の複数回の採取は推奨されません。\n誤り。\n\nd. **鼠径部からの採取が推奨される**\n誤り。鼠径部は皮膚の殺菌が難しく、的皮肤菌の殺滅に時間がかかるため、一般的には足部、腕部などの遠端の血管を使用します。鼠径部を推奨することは使用技術の全体が異なるため。\n誤り。\n\ne. **好気性ボトル、嫌気性ボトルの順に血液を注入する**\n誤り。細菌の分離と、嫌気性瓶の状態で、嫌気性瓶の采血動には、好気性瓶に採血時刻の酸素を導入するよりも、嫌気性ボトルを先に採血しますが、好気性瓶の古い空気を嫌気性瓶に混合させるのではなく、嫌気性瓶を先にポリエチレンに注入します。一般的なガイドラインです。嫌気性瓶を先に注入し、次に好気性瓶を注入するのが推奨されています。\n誤り。\n\n結論として、滅菌手袋の使用が最も標準的な流血採取手順の一つです。\n\n【回答】b",
       "parse_success": true,
       "error": null,
@@ -5222,9 +5222,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "この問題では、妊娠30週で羊水過多（AFI 28cm）を呈する初妊婦について、まず行うべき対応を選定します。\n\n1.  **症例の分析**:\n    *   **羊水過多**: 羊水指数 AFI 28cm（基準 5〜24cm）から、羊水過多として説明されます。\n    *   **胎児心拍数**: 陣痛図（F 問題44 No.2）を見ると、胎児心拍数のベースラインは規則的（130〜140 bpm 前後）であり、変動があり、加速が見られます（カテゴリー I OUN）。心拍数は一見良好です。\n    *   **胎児の形態**: 「胎児に明らかな形態異常がない」とあります。\n    *   **prenatal_diabetes (GDM)**: 24週に50gOGT試験を行い、125 mg/dL（基準 140未満）で正常と判定されています。\n    *   **孕産婦の主な懸念点**: **羊水過多の発症原因**の確認と、**妊娠30週（32〜34週未満）の早产リスク管理**です。\n\n2.  **羊水過多の発症原因**:\n    *   羊水過多の主な原因は以下の通りです：\n        1.  胎児の構造的な異常（消化器系、中枢神経系など）。\n        2.  妊娠 Diabetes Mellitus (GDM)。\n        3.  多胎妊娠。\n        4.  尿力活動に対する胎児の異常（羊水タンパク質の産生や嚥下の異常）。\n    *   本症例では、構造的な異常はないことも報告されています。\n    *   GDM は、**羊水過多の最も一般的な起因因子**の一つです。\n    *   50gOGT試験（スクリーニング）の結果が正常（125mg/dL）であることは事実ですが、**羊水過多という強い臨床所見存在ającian**、GDMの確定診断を行うことで新たな診断と出産計画を立てる必要があります。50gOGTはスクリーニングテストであり、偽陰性があるため、羊水過多とreffenに念頭を置き、確定診断として75gOGT（または100gOGT）を施行することが推奨されます。妊娠糖尿病を確定・除外することで、胎児の発育と母体の血糖コントロールが確保されます。\n\n3.  **選択肢の検討**:\n    *   **a 羊水除去**: 羊水過多が母体の呼吸困難などの症状を起こしたり、重度の羊水過多（AFI > 30-35cm）である場合に施行されます。AFI 28cmのも症状がない場合、羊水除去はかえって感染や早産リスクを高めるため一般的ではありません。\n    *   **b 子宮頸管長測定**: 30週で羊水過多である場合、子宮頸管短縮や早産のリスクは高くなります。頸管長測定は有用ですが、羊水過多の**原因（GDMなど）を除外すること**に優先します。また、合併症の管理前に行うことが一般的です。\n    *   **c ベタメタゾン筋肉注射**: 32-34週未満で日帰りで早産を予定する場合に施行されます。今、治療が必要なわけでも分娩が必要なわけでもありません。\n    *   **d 塩酸リトドリン点滴静注**: 胎盤障害や子宮収縮抑制に効果がありますが、陣痛がある場合にのみ使用されます。\n    *   **e 75g経口ブドウ糖負荷試験**: ギム糖尿病（GDM）の病因を確定診断するために必要です。羊水過多で胎児に構造的な異常がない場合、GDMを原因と考えます。50gオグリ試験はスクリーニングであり、確定診断目的では75gオグリ（または100g）を行います。妊娠糖尿病を認めていませんので、羚羊素を除外または再確認ることが必要です。ただし、羊水過多はGDMの徴候であり、GDMの確定診断を平行して行うことが採点ポイントです。\n\n    しかし、50gオグリ試験の結果は**125 mg/dL**（基準<140）であり、**正常**（陰性）です。 Germlineとして、羊水過多が一意理由を持っている場合、**羊水除去**か**早産リスク**（ベタメタゾン）か**手術的治療**（Cervix length consider）と**GDM再確認**が考えられます。\n    しかし、GDMの確定診断（50g異常な場合に進めるとは思われるが、正常の場合ﾂﾙ矜持する）\n    羊水過多の清代（副報告）で、**GDMを除外する**すなわち、**75gオグリ**\n    また、日本では50g。スクリーニングのみなので、**GDM確定のための75g**（または100g）\n    羊水過多の確定診断として、  \n    ※しかし、羊水過多とGDMが結びつくthough。\n    しかし、羊水過多の要因を除外することが優先的ですか？\n    50gが正常でしたので、GDMの可能性は低いですが、羊水過多はGDMの徴候であり、確定診断を行うために**75gOGT**\n    羊水過多の程度がAII 28は軽度ですが、羊水過多→早産のリスクが高いので、**Cervical Length**？\n    しかし、羊水過多の原因を明確にするための最初の対応としては、**GDMの再確認**\n    羊水過多と医師が一致している場合、**GDMの確定**\n\n    医学的ポイント：羊水過多の確定診断として、GDMを除外するため**75g OGT**\n    羊水過多で構造的異常がない場合、GDMの再確認（50gはスクリーニング）および、羊水過多→早産のリスク管理。\n    まず行う対応としては、**75g OGT**（GDM確定）\n    羊水過多はGDMと密接に関連しており、GDMを再確認することが水腫のコントロールのため非常に重要です。\n\n    したがって、羊水過多の原因をGDMとして再確認する**75g OGT**を推奨。\n\n    他の選択肢：羊水除去は症状がないため、ベタメタゾンは早産の徴候がないため、リトドリンは陣痛がないため、頸管長測定はGDM再確認より後。\n    また、羊水過多で胎児に異常がない場合、妊娠糖尿病は最も一般的な原因です。50g試験はスクリーニングであり、羊水過多という強い所見がある場合は、確定診断（75gまたは100g）を行うことが推奨されています。\n\n    したがって、正解は e。\n\n【回答】e",
       "parse_success": true,
       "error": null,
@@ -5434,7 +5434,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】b,c",

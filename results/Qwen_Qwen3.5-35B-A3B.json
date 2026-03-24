@@ -11,30 +11,30 @@
     "display_name": "Qwen3.5-35B-A3B"
   },
   "summary": {
-    "accuracy": 0.9475,
-    "correct": 379,
-    "incorrect": 21,
-    "score": 479,
+    "accuracy": 0.95,
+    "correct": 380,
+    "incorrect": 20,
+    "score": 480,
     "score_max": 500,
-    "score_pct": 0.958,
+    "score_pct": 0.96,
     "text_only_score": 370,
     "text_only_score_max": 382,
     "text_only_score_pct": 0.9686,
-    "required_score": 197,
+    "required_score": 196,
     "required_score_max": 200,
-    "required_score_pct": 0.985,
-    "general_score": 282,
+    "required_score_pct": 0.98,
+    "general_score": 284,
     "general_score_max": 300,
-    "general_score_pct": 0.94,
+    "general_score_pct": 0.9467,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
     "errors": 0,
     "by_block": {
       "A": {
-        "correct": 72,
+        "correct": 73,
         "total": 75,
-        "accuracy": 0.96
+        "accuracy": 0.9733
       },
       "B": {
         "correct": 49,
@@ -52,14 +52,14 @@
         "accuracy": 0.96
       },
       "E": {
-        "correct": 48,
+        "correct": 47,
         "total": 50,
-        "accuracy": 0.96
+        "accuracy": 0.94
       },
       "F": {
-        "correct": 69,
+        "correct": 70,
         "total": 75,
-        "accuracy": 0.92
+        "accuracy": 0.9333
       }
     },
     "by_type": {
@@ -69,9 +69,9 @@
         "accuracy": 0.9521
       },
       "calculation": {
-        "correct": 1,
+        "correct": 2,
         "total": 3,
-        "accuracy": 0.3333
+        "accuracy": 0.6667
       }
     },
     "by_image": {
@@ -81,9 +81,9 @@
         "accuracy": 0.9603
       },
       "with_image": {
-        "correct": 89,
+        "correct": 90,
         "total": 98,
-        "accuracy": 0.9082
+        "accuracy": 0.9184
       }
     }
   },
@@ -1120,7 +1120,7 @@
       "gold": [
         "315"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "血清浸透圧（算出浸透圧）は、以下の標準的な計算式を用いて求めます。\n$$ \\text{算出浸透圧 (mOsm/kgH}_2\\text{O)} = 2 \\times [\\text{Na}^+] (\\text{mEq/L}) + \\frac{\\text{血糖値 (mg/dL)}}{18} + \\frac{\\text{尿素窒素値 (mg/dL)}}{2.8} $$\n\n与えられた数値を代入します。\n*   血中ナトリウム濃度 (Na): 122 mEq/L\n*   血糖値: 918 mg/dL\n*   尿素窒素値 (BUN): 56 mg/dL\n\n計算過程：\n1.  $2 \\times \\text{Na} = 2 \\times 122 = 244$\n2.  $\\text{血糖}/18 = 918 / 18 = 51$\n3.  $\\text{BUN}/2.8 = 56 / 2.8 = 20$\n\n合計：\n$$ 244 + 51 + 20 = 315 $$\n\n小数点以下の数値が得られない場合（整数となった場合）でも、指示に従い小数第 1 位まで示すことで計算の精度を示唆するため、小数点 1 位で記載します。\n\n【回答】315.0",
       "parse_success": true,
       "error": null,
@@ -2594,9 +2594,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -2770,9 +2770,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "この症例は、新生児期に呼吸性アシドーシスとチアノーゼを呈する早産児です。呼吸障害の鑑別診断において、特に重要なのは**「肺原性チアノーゼ」と「心原性チアノーゼ（特に先天性心疾患や持続性肺高血圧症：PPHN）」の区別**です。\n\nこの区別には、**上半身（橈骨動脈など）と下半身（臍動脈または後脛骨動脈など）の酸素分圧（PaO2）を比較する**ことが一般的に行われます（酸素化の差、あるいはシフトの有無を確認する）。\n\nまた、血液ガス分析で明らかにされた呼吸性アシドーシス（PCO2 68 Torr）の管理においては、換気設定の調整などを行うために**頻回の動脈血ガス分析**が必要です。\n\n新生児科のNICUにおいて、これらの目的（動脈血サンプリングおよび血圧モニタリング）のために挿入される器具が**臍動脈カテーテル（UAC）**です。\n\n各選択肢の確認：\n*   ① 気管チューブ：気道確保用。\n*   ② 経管栄養チューブ：栄養補給用。\n*   ③ 胸腔ドレナージチューブ：気胸や胸腔貯留液排液用。\n*   ④ 尿道カテーテル：尿採取・排尿維持用。\n*   **⑤ 臍動脈カテーテル**：動脈血サンプリングや血圧モニタリングに用いられる。\n\nしたがって、検体（動脈血）採取に用いるのは臍動脈カテーテルです。\n\n【回答】e",
       "parse_success": true,
       "error": null,
@@ -4636,9 +4636,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】e",
       "parse_success": true,
       "error": null,
@@ -5232,9 +5232,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -5444,7 +5444,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】b,c",

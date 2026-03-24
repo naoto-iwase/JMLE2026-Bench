@@ -15,21 +15,21 @@
     "display_name": "Gemini 3.1 Pro Preview"
   },
   "summary": {
-    "accuracy": 0.975,
-    "correct": 390,
-    "incorrect": 10,
-    "score": 490,
+    "accuracy": 0.9825,
+    "correct": 393,
+    "incorrect": 7,
+    "score": 493,
     "score_max": 500,
-    "score_pct": 0.98,
-    "text_only_score": 379,
+    "score_pct": 0.986,
+    "text_only_score": 378,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.9921,
-    "required_score": 199,
+    "text_only_score_pct": 0.9895,
+    "required_score": 198,
     "required_score_max": 200,
-    "required_score_pct": 0.995,
-    "general_score": 291,
+    "required_score_pct": 0.99,
+    "general_score": 295,
     "general_score_max": 300,
-    "general_score_pct": 0.97,
+    "general_score_pct": 0.9833,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
@@ -46,9 +46,9 @@
         "accuracy": 1.0
       },
       "C": {
-        "correct": 70,
+        "correct": 72,
         "total": 75,
-        "accuracy": 0.9333
+        "accuracy": 0.96
       },
       "D": {
         "correct": 74,
@@ -56,21 +56,21 @@
         "accuracy": 0.9867
       },
       "E": {
-        "correct": 49,
+        "correct": 48,
         "total": 50,
-        "accuracy": 0.98
+        "accuracy": 0.96
       },
       "F": {
-        "correct": 73,
+        "correct": 75,
         "total": 75,
-        "accuracy": 0.9733
+        "accuracy": 1.0
       }
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 387,
+        "correct": 390,
         "total": 397,
-        "accuracy": 0.9748
+        "accuracy": 0.9824
       },
       "calculation": {
         "correct": 3,
@@ -80,14 +80,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 299,
+        "correct": 298,
         "total": 302,
-        "accuracy": 0.9901
+        "accuracy": 0.9868
       },
       "with_image": {
-        "correct": 91,
+        "correct": 95,
         "total": 98,
-        "accuracy": 0.9286
+        "accuracy": 0.9694
       }
     }
   },
@@ -2598,9 +2598,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -2774,9 +2774,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "この症例は、早産児（在胎36週1日）で出生後に多呼吸（呼吸数70/分）や呼吸性アシドーシス（pH 7.25、PCO₂ 68 Torr）を呈しており、呼吸窮迫症候群（RDS）や新生児一過性多呼吸（TTN）などの呼吸障害が疑われます。\n\nこれらの鑑別診断として、胃液中の肺表面活性物質（サーファクタント）の有無を調べる「マイクロバブルテスト（安定末梢気泡試験）」が行われます。胃液を採取するためには、口または鼻から胃までチューブを挿入する必要があり、この目的で使用されるのは**経管栄養チューブ（胃管）**です。\n\n写真の選択肢のうち、②が経管栄養チューブです。\n\n【回答】b",
       "parse_success": true,
       "error": null,
@@ -4640,9 +4640,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "血液培養検体の採取方法についての各選択肢の検討は以下の通りです。\n\na 誤り。皮膚の消毒薬（アルコールやポビドンヨード、クロルヘキシジンなど）は、完全に乾くことで十分な殺菌効果を発揮するため、乾くまで待ってから穿刺する必要があります。\nb 誤り。標準予防策として手袋を着用しますが、消毒後の穿刺部位に触れない限りは非滅菌手袋（ディスポーザブル手袋）での実施が可能です（触知しながら穿刺する場合は滅菌手袋の着用が推奨されます）。\nc 誤り。コンタミネーション（汚染）か真の血流感染かを判別しやすくするため、血液培養は「異なる部位から2セット」採取することが原則です。\nd 誤り。鼠径部（大腿静脈など）は皮膚の常在菌や便などによる汚染リスクが高いため、原則として上肢の静脈からの採取が推奨されます。\ne 正しい。現在広く推奨されている翼状針（＋真空ホルダー）を用いた血液培養ボトルへの直接採血では、針のチューブ内にある空気が嫌気性ボトルに入らないよう、最初に【好気性ボトル】、次に【嫌気性ボトル】の順番で血液を注入するのが正しい手順です。\n\n【回答】e",
       "parse_success": true,
       "error": null,
@@ -5236,9 +5236,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "この症例は妊娠30週の初妊婦で、羊水指数（AFI）が28cmであり、羊水過多と診断されています。羊水過多の原因検索として、胎児形態異常は超音波で否定され、妊娠糖尿病（GDM）も50gGCTが陰性（125 mg/dL ＜ 140 mg/dL）であるため否定的です。\n\n羊水過多では、子宮が過度に伸展するため、切迫早産や前期破水のリスクが著しく高くなります。胎児心拍数陣痛図（CTG）では明らかな規則的子宮収縮は認めておらず、胎児の状態も良好（reassuring）です。しかし、自覚症状のない子宮頸管の短縮が進行している可能性があるため、切迫早産の評価として**子宮頸管長測定**をまず行う必要があります。\n\n他の選択肢について：\na 羊水除去：母体に対する強い圧迫症状（呼吸困難など）がある場合に考慮されます。\nc ベタメタゾン筋肉注射：切迫早産と診断され、1週間以内の早産が予知される場合に行われます。\nd 塩酸リトドリン点滴静注：切迫早産の診断が確定し、子宮収縮を抑制する必要がある場合に行われます。\ne 75g経口ブドウ糖負荷試験：50gGCTが基準値未満であるため、現時点では不要です。\n\n【回答】b",
       "parse_success": true,
       "error": null,
@@ -5448,9 +5448,9 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "胎児心拍数陣痛図（CTG）では、陣痛に伴って心拍数が急激に低下し、急速に回復する**変動一過性徐脈**が頻発しています。これは破水などによる羊水量減少や臍帯巻絡、臍帯下垂などに伴う**臍帯圧迫**が原因として疑われます。\n\n現在、基線細変動は保たれており、直ちに重篤な胎児機能不全に陥っている状態ではないため、緊急帝王切開の前にまずは以下の対応を行います。\n\n1. **体位変換（b）**\n臍帯圧迫を解除するための第一選択の処置です。仰臥位から側臥位（シムス位）などに体位を変えることで、圧迫が解除され徐脈が改善することが多いです。\n\n2. **経腹超音波検査（d）**\n胎児の状態や羊水量、臍帯巻絡・臍帯下垂あるいはその他の異常がないか、原因検索を行うために有用です。\n\n※ 陣痛促進（a）は臍帯圧迫を増悪させるため禁忌に近いです。子宮収縮抑制薬（e）は過強陣痛（10分間に6回以上の収縮など）の場合などに考慮されることがありますが、本症例においてはまず行うべき対応ではありません。\n\n【回答】b,d",
       "parse_success": true,
       "error": null,

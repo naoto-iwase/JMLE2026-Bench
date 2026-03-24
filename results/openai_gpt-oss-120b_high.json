@@ -13,21 +13,21 @@
     "display_name": "gpt-oss-120b (high)"
   },
   "summary": {
-    "accuracy": 0.9325,
-    "correct": 373,
-    "incorrect": 27,
-    "score": 467,
+    "accuracy": 0.935,
+    "correct": 374,
+    "incorrect": 26,
+    "score": 468,
     "score_max": 500,
-    "score_pct": 0.934,
-    "text_only_score": 363,
+    "score_pct": 0.936,
+    "text_only_score": 362,
     "text_only_score_max": 382,
-    "text_only_score_pct": 0.9503,
-    "required_score": 187,
+    "text_only_score_pct": 0.9476,
+    "required_score": 186,
     "required_score_max": 200,
-    "required_score_pct": 0.935,
-    "general_score": 280,
+    "required_score_pct": 0.93,
+    "general_score": 282,
     "general_score_max": 300,
-    "general_score_pct": 0.9333,
+    "general_score_pct": 0.94,
     "required_pass": true,
     "general_pass": true,
     "parse_failures": 0,
@@ -44,9 +44,9 @@
         "accuracy": 0.94
       },
       "C": {
-        "correct": 70,
+        "correct": 71,
         "total": 75,
-        "accuracy": 0.9333
+        "accuracy": 0.9467
       },
       "D": {
         "correct": 70,
@@ -54,21 +54,21 @@
         "accuracy": 0.9333
       },
       "E": {
-        "correct": 46,
+        "correct": 45,
         "total": 50,
-        "accuracy": 0.92
+        "accuracy": 0.9
       },
       "F": {
-        "correct": 69,
+        "correct": 70,
         "total": 75,
-        "accuracy": 0.92
+        "accuracy": 0.9333
       }
     },
     "by_type": {
       "multiple_choice": {
-        "correct": 370,
+        "correct": 371,
         "total": 397,
-        "accuracy": 0.932
+        "accuracy": 0.9345
       },
       "calculation": {
         "correct": 3,
@@ -78,14 +78,14 @@
     },
     "by_image": {
       "text_only": {
-        "correct": 287,
+        "correct": 286,
         "total": 302,
-        "accuracy": 0.9503
+        "accuracy": 0.947
       },
       "with_image": {
-        "correct": 86,
+        "correct": 88,
         "total": 98,
-        "accuracy": 0.8776
+        "accuracy": 0.898
       }
     }
   },
@@ -2596,9 +2596,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -2772,7 +2772,7 @@
         "c"
       ],
       "gold": [
-        "e"
+        "b"
       ],
       "correct": false,
       "raw_response": "【回答】c",
@@ -4638,9 +4638,9 @@
         "e"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": true,
+      "correct": false,
       "raw_response": "【回答】e",
       "parse_success": true,
       "error": null,
@@ -5234,9 +5234,9 @@
         "b"
       ],
       "gold": [
-        "e"
+        "b"
       ],
-      "correct": false,
+      "correct": true,
       "raw_response": "【回答】b",
       "parse_success": true,
       "error": null,
@@ -5446,7 +5446,7 @@
       ],
       "gold": [
         "b",
-        "e"
+        "d"
       ],
       "correct": false,
       "raw_response": "【回答】b,c",

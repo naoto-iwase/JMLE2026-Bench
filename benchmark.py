@@ -70,7 +70,7 @@ REQUIRED_BLOCKS = {"B", "E"}
 
 # Passing thresholds (reference: 119th exam)
 REQUIRED_PASS_THRESHOLD = 160   # out of 200
-GENERAL_PASS_THRESHOLD = 221    # out of 300
+GENERAL_PASS_THRESHOLD = 224    # out of 300
 
 
 def question_points(entry: dict) -> int:
@@ -143,7 +143,17 @@ def parse_answer(raw: str, question_type: str) -> tuple[list[str], bool]:
     return answers, bool(answers)
 
 
-def is_correct(predicted: list[str], gold: list[str]) -> bool:
+def _numeric_eq(a: str, b: str) -> bool:
+    """Compare two strings as numbers, tolerating trailing zeros etc."""
+    try:
+        return float(a) == float(b)
+    except (ValueError, TypeError):
+        return False
+
+
+def is_correct(predicted: list[str], gold: list[str], question_type: str = "multiple_choice") -> bool:
+    if question_type == "calculation" and len(predicted) == 1 and len(gold) == 1:
+        return _numeric_eq(predicted[0], gold[0])
     return sorted(predicted) == sorted(gold)
 
 
@@ -177,7 +187,7 @@ def process_question(
         predicted, parse_ok = parse_answer(raw, entry["question_type"])
         if not parse_ok and reasoning_content:
             predicted, parse_ok = parse_answer(reasoning_content, entry["question_type"])
-        correct = is_correct(predicted, entry["answer"]) if parse_ok else False
+        correct = is_correct(predicted, entry["answer"], entry["question_type"]) if parse_ok else False
 
         result = {
             "question_id": qid,
@@ -404,7 +414,7 @@ def main() -> None:
         e = entry_map[r["question_id"]]
         if r["parse_success"]:
             r["gold"] = e["answer"]
-            r["correct"] = is_correct(r["predicted"], e["answer"])
+            r["correct"] = is_correct(r["predicted"], e["answer"], e["question_type"])
 
     results = sorted(result_map.values(), key=lambda r: r["question_id"])
 
